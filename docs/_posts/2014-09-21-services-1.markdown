@@ -2,7 +2,7 @@
 layout: default
 img: ipad.png
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: Just use you mobile phone and a small tripod and you are good to go
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+  No more complicated user interface that interferes with learning
