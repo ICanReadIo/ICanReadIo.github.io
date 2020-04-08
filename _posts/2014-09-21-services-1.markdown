@@ -1,8 +1,0 @@
----
-layout: default
-img: ipad.png
-category: Services
-title: Just use you mobile phone and a small tripod and you are good to go
-description: |
----
-  No more complicated user interface that interferes with learning
