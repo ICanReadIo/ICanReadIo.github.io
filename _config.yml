@@ -3,7 +3,7 @@
 
 title: IcanRead
 url: "www.icanread.io"
-baseurl: "http://www.icanread.io/"
+baseurl: "https://www.icanread.io"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
