@@ -1,9 +1,9 @@
 
 - name: Login
-  link: https://auth.icanread.io/login?response_type=token&client_id=7b8c68vjcjtqu6saue8iq0brq5&redirect_uri=https://icanread.io/
+  link: https://icanread.io
   new_window: false
   highlight: false
 - name: Sign Up
-  link: https://auth.icanread.io/signup?response_type=token&client_id=7b8c68vjcjtqu6saue8iq0brq5&redirect_uri=https://www.icanread.io/thankyou
+  link: https://icanread.io
   new_window: false
   highlight: true 
