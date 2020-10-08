@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .plans, .staff, .contact-box, footer .footer-columns { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
 
-html { background: #2b2b40; }
+html { background: #a4d5e0; }
 
 html, body { margin: 0; padding: 0; }
 
@@ -23,7 +23,7 @@ h3 { margin: 20px 0 10px 0; }
 
 p, address { font-size: 1.38em; color: #666; margin-bottom: 20px; font-weight: 300; line-height: 1.4em; }
 
-.bottom-cta { background: linear-gradient(to bottom, #4182e4 0%, #4182e4 100%); color: #fff; text-align: center; margin: 0; padding: 100px 0; }
+.bottom-cta { background: linear-gradient(to bottom, #a4d5e0 0%, #97bdc5 100%); color: #fff; text-align: center; margin: 0; padding: 100px 0; }
 
 .bottom-cta h2 { margin-bottom: 50px; }
 
@@ -36,7 +36,7 @@ p, address { font-size: 1.38em; color: #666; margin-bottom: 20px; font-weight: 3
 @media (min-width: 450px) { .testimonial .testimonial-block { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
   .testimonial .testimonial-block blockquote { -webkit-flex: 1; flex: 1; } }
 
-.hero { color: #ffffff; text-align: center; background: linear-gradient(to bottom, #4182e4 0%, #4182e4 100%) no-repeat #a05fb7; padding-top: 50px; }
+.hero { color: #ffffff; text-align: center; background: linear-gradient(to bottom, #a4d5e0 0%, #97bdc5 100%) no-repeat #a4d5e0; padding-top: 50px; }
 
 .hero p { color: #fff; }
 
@@ -54,7 +54,7 @@ p, address { font-size: 1.38em; color: #666; margin-bottom: 20px; font-weight: 3
 
 .container.max-container { max-width: 100%; padding: 0; }
 
-header { color: #fff; padding: 20px 0; background: #4182e4; /* Old browsers */ background: linear-gradient(to bottom, #4182e4 0%, #4182e4 100%) no-repeat #4182e4; }
+header { color: #fff; padding: 20px 0; background: #a4d5e0; /* Old browsers */ background: linear-gradient(to bottom, #a4d5e0 0%, #a4d5e0 100%) no-repeat #a4d5e0; }
 
 header a { color: #fff; text-decoration: none; z-index: 1; position: relative; }
 
@@ -210,13 +210,13 @@ blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-heigh
 
 .blog-filter.cross a:after { content: "x"; font-size: .5em; position: relative; bottom: 4px; right: -3px; }
 
-.button a, input[type=submit] { color: #fff; text-decoration: none; padding: 10px 30px; background: #4182e4; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.5); transition: .2s ease-in-out; }
+.button a, input[type=submit] { color: #fff; text-decoration: none; padding: 10px 30px; background: #a4d5e0; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.5); transition: .2s ease-in-out; }
 
-.button a:hover, input[type=submit]:hover { border: 1px solid #fff; background: #4182e4; cursor: pointer; }
+.button a:hover, input[type=submit]:hover { border: 1px solid #fff; background: #a4d5e0; cursor: pointer; }
 
-.button.alt a { background: rgba(255, 255, 255, 0.15); border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.3); padding: 16px 50px; }
+.button.alt a { background: #35CCA9; border-radius: 3px; border: none; border-radius: 15px; padding: 16px 50px; }
 
-.button.alt a:hover { background: #fff; color: #4182e4; }
+.button.alt a:hover { background: #fff; color: #a4d5e0; }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 
@@ -258,7 +258,7 @@ nav a.nav-toggle:hover { border: 0; }
 nav a:hover { border-bottom: 1px solid rgba(255, 255, 255, 0.3); color: #fff; }
 
 @media (min-width: 620px) { nav a.highlight { border: 1px #ccc solid; border-radius: 5px; }
-  nav a.highlight:hover { background: #fff; color: #4182e4; } }
+  nav a.highlight:hover { background: #fff; color: #a4d5e0; } }
 
 nav a.active { color: #fff; }
 
@@ -290,7 +290,7 @@ nav a.active { color: #fff; }
 
 .footer-links li a.rss-icon:hover svg { fill: #f26522; }
 
-footer { padding: 50px 0 50px 0; font-size: 1.1em; position: relative; background: #2b2b40; color: #fff; }
+footer { padding: 50px 0 50px 0; font-size: 1.1em; position: relative; background:#505067; color: #fff; }
 
 footer .copyright { font-size: .8em; margin: 0 auto; }
 
