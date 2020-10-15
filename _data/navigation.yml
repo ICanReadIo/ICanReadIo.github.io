@@ -1,4 +1,8 @@
 
+- name: The tool
+  link: /
+  new_window: false
+  highlight: false
 - name: Login
   link: https://icanread.io
   new_window: false

@@ -143,7 +143,6 @@ blockquote:before {
 		top: -1000%;
 		bottom: -1000%;
 		margin: auto;
-		width: 300px;
 	}
 }
 
@@ -183,7 +182,7 @@ blockquote:before {
 
 }
 
-.text{
+  .text{
 	margin-bottom: 40px;
   }
   .lang-list{
@@ -219,11 +218,11 @@ blockquote:before {
   ul.lang-list li {
 	  margin-bottom: 10px;
   }
-  .rounded img , .rounded video{
+  .rounded img , .rounded video, p img{
 	border-radius: 20px;
   }
   .content{
-	color: rgb(80, 80, 104);
+	color: #504f68;
   }
   .content h2{
 	font-weight: bold;
