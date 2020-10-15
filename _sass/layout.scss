@@ -182,3 +182,49 @@ blockquote:before {
 	}
 
 }
+
+.text{
+	margin-bottom: 40px;
+  }
+  .lang-list{
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+	padding-inline-start: 0px;
+	list-style: none;
+  }
+  
+  ul.lang-list li:before{
+	content: '✓ '; 
+	color:#35CCA9;
+  }
+  .checklist-item {
+	display: flex;
+  }
+  .checklist-item div:nth-of-type(1){
+	color:#35CCA9;
+	margin-right: 10px;
+	font-size: 1.38em;
+	font-weight: 300;
+	line-height: 1.4em;
+  }
+  .checklist-item p{
+	display: inline;
+  }
+  .checklist-item *{
+	margin-top: 0px;
+	margin-bottom: 20px;
+  }
+  
+  ul.lang-list li {
+	  margin-bottom: 10px;
+  }
+  .rounded img , .rounded video{
+	border-radius: 20px;
+  }
+  .content{
+	color: rgb(80, 80, 104);
+  }
+  .content h2{
+	font-weight: bold;
+  }
