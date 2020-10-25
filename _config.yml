@@ -68,10 +68,11 @@ defaults:
       path: "contact.html"
     values:
       full_width: true
-
 jekyll-archives:
-  enabled:
+  enabled: 
     - categories
+  permalinks:
+    category: '/category/:name/'
 
 plugins:
   - jekyll-archives
