@@ -4,7 +4,7 @@
   new_window: false
   highlight: true
   name: Articles
-  link: articles
+  link: /en/articles
   new_window: false
   highlight: true
 - name: Login
