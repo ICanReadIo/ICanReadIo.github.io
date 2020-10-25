@@ -30,8 +30,8 @@ collections:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
-permalink: pretty
+paginate_path: "blog/:num/"
+permalink: /:categories/:title:output_ext
 
 defaults:
   -
