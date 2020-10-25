@@ -11,7 +11,7 @@ It is difficult for your child to read. It may be difficult to pronounce the wor
 
 ![Reading child](/images/child_black_book.jpg)
 <figcaption>
-<span>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/child-read?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/child-read?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>
 </figcaption>
 
 # Common Symptoms of Dyslexia
