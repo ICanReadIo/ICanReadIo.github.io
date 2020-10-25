@@ -2,7 +2,11 @@
 - name: The tool
   link: /
   new_window: false
-  highlight: false
+  highlight: true
+  name: Articles
+  link: articles
+  new_window: false
+  highlight: true
 - name: Login
   link: https://icanread.io
   new_window: false
