@@ -55,4 +55,6 @@ Dyslexia is difficulty in the use and processing of linguistic and symbolic code
 
 Source:  The E-book: Everything you need to know about learning disorders
 
-You can buy the entire e-book [here](https://gumroad.com/l/ECMLZ)
+You can buy the entire e-book [here](https://gumroad.com/l/ECMLZ). 
+
+Use the code **icanread** to get a discount
