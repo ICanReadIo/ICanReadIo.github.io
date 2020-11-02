@@ -16,9 +16,10 @@
 }
 
 nav {
-	text-transform: uppercase;
-	font-size: .8em;
+	font-size: 1.5em;
 	width: 100%;
+	font-family: 'Comfortaa', serif;
+	font-weight: 700;
 
 	@media #{$mid-point} {
 		text-align: right;
@@ -33,7 +34,7 @@ nav {
 		margin: 0 3px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.8);
+		color: #000000;
 		transition: .2s ease-in-out;
 		display: none;
 
@@ -64,7 +65,7 @@ nav {
 	a:hover {
 
 		border-bottom: 1px solid rgba(255,255,255,.3);
-		color: #fff;
+		color: #000000;
 	}
 
 	@media #{$mid-point} {
