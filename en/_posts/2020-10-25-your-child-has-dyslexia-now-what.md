@@ -32,16 +32,16 @@ It is difficult for your child to read. It may be difficult to pronounce the wor
 Having these challenges can be tough on kids. But understand first, dyslexia is very common. Secondly, the children who have it are as smart as other children. This is just one of the many myths about dyslexia. Third, there are proven methods for teaching dyslexic children to read and improve their skills.
 The good news is that there are successful ways to educate struggling readers, and skills can be improved. There are also tools that can help.  Here are some steps to take if you are concerned that your child has dyslexia.
 
-***1. Tell your child that there is help***  
+1. ### Tell your child that there is help 
 Problems in school can make children feel lonely and feel bad about themselves. Let your child know that you are working with a teacher to find the best ways to help. Knowing that skills can be improved will help your child stay motivated.
 
-***2. Look for patterns***  
+2. ### Look for patterns
 Keep track of what happens when your child reads and write down what you see. You may be able to pick up patterns. For example, is it more difficult for your child to make out some words than others? The more you notice, the more information you can share with the teachers.
 
-***3. Build a support network***  
+3. ### Build a support network  
 When you take steps to help your child, support is also important to you. Try to talk openly about your child's problems to people you trust. You can also connect with other families in a secure, understanding community. There are lots of Dyslexia support groups on Facebook.
 
-***4. Find ways to help at home***  
+4. ### Find ways to help at home
 There are many ways to develop reading skills at home. Discover strategies that you can try. But don't just focus on problems. Help your child celebrate great and small gains in reading or any other activity.
 Tip: Introduce your kid to the IcanRead app. This app helps your children with reading. You just point at the text in the book and this app will read it for you. IcanRead supports a large number of languages.
 

@@ -70,3 +70,7 @@ p, address {
 li {
     margin-top: 20px;
 }
+li::marker{
+	font-family: 'Comfortaa', serif;
+	font-weight: bold;
+}
