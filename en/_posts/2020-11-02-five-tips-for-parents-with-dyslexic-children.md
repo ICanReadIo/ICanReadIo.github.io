@@ -1,9 +1,9 @@
 ---
 date: 2020-11-02
-title: 5 tips for parents with dyslexic children
+title: Five tips for parents with dyslexic children
 categories:
   - mitigations
-author_staff_member: adam
+author_staff_member: fizza
 published: true
 ---
 Dyslexia is not an irreversible condition; however, many parents with dyslexic children panic hearing the diagnosis. Think about any skill, e.g., riding a bicycle. Some children will be quick to learn it while others may need training wheels a little longer than their peers. The same is the case with reading and writing skills. While your child may be good at other things, they may be slow in learning to read. It simply means they need the training wheels a little longer than expected. So, here are 5 scientifically proven tips that the parents could use in order to help their dyslexic child.
