@@ -43,6 +43,6 @@ When you take steps to help your child, support is also important to you. Try to
 
 4. ### Find ways to help at home
 There are many ways to develop reading skills at home. Discover strategies that you can try. But don't just focus on problems. Help your child celebrate great and small gains in reading or any other activity.
-Tip: Introduce your kid to the IcanRead app. This app helps your children with reading. You just point at the text in the book and this app will read it for you. IcanRead supports a large number of languages.
+Tip: Introduce your kid to the IcanRead app. This app helps your children with reading. You just point at the text in the book and this app will read it for you. IcanRead supports a large number of languages. Read more about it [here.](/en/)
 
 IcanRead knows everyone is smart in their own way. You can sign up for a free trial and give your child the same opportunities as any other kid!
