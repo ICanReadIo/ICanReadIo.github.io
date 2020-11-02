@@ -45,7 +45,7 @@ Here are some popular smart pens that work well for people with dyslexia.
 Tortalk is an app that exists for IOS, Windows and Mac. It will read text in documents images and e-books. You can take a picure of the text, mark what part of the text you want it to read and the hear the text. The tool has become very popular specificlly for university students that get a lot of documents to read.
 
 ### 5. IcanRead
-<img style="border-style:solid;" src="/images/pointing.JPG" alt="TorTalk">
+<img style="border-style:solid;" src="/images/pointing.JPG" alt="IcanRead">
 IcanRead is a mobile app that runs on any smartphone. It runs in the browser so there is no need to install anything. It is focused on analog text only. It has two modes, handheld and tripod. In the handheld mode you aim the camera at the text tap the screen below the paragraph you want to read and the app will read the text out loud. One click is all it takes and that makes this app faster than the competition. The tripod mode also stands out from any other app on the market. In this mode you place the phone in a small tripod in front of you. The app will continuously film the desk and when it sees you pointing at a text in a book, it will read it back to you. IcanRead uses state of the art artificial inteligence to recognice a pointing finger. This makes it possible for it to passively help you read. IcanRead also uses the very best and most naturally sounding voices and it works in most languages.
 
 You can read more about IcanRead [here](/en/)
