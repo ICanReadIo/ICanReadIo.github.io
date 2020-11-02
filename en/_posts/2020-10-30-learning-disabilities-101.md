@@ -7,7 +7,6 @@ author_staff_member: adam
 published: true
 ---
 Learning disabilities that can affect reading are more prevelant than people think.
-
 Becoming aware of the warning signs of learning disabilities and getting children the necessary help early on
 can be key to a child’s future.
 
