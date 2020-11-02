@@ -2,7 +2,7 @@
 date: 2020-10-30
 title: Learning disabilities 101 - Dyslexia
 categories:
-  - general
+  - learing-disabilities
 author_staff_member: adam
 published: true
 ---
@@ -53,7 +53,7 @@ Dyslexia is difficulty in the use and processing of linguistic and symbolic code
 - Lowered self-esteem, with pain that is not always visible to others
 - A history of reading, spelling, and foreign-language problems in family members
 
-Source:  The E-book: Everything you need to know about learning disorders
+**Source:  The E-book: Everything you need to know about learning disorders**
 
 You can buy the entire e-book [here](https://gumroad.com/l/ECMLZ). 
 
