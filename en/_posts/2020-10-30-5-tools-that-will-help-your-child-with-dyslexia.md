@@ -28,9 +28,13 @@ When writing and reading texts in Microsoft Word there is a good tool available.
 
 ### 3. IcanRead
 <img style="border-style:solid;" src="/images/pointing.JPG" alt="IcanRead">
-IcanRead is a mobile app that runs on any smartphone. It runs in the browser so there is no need to install anything. It is focused on analog text only. It has two modes, handheld and tripod. In the handheld mode you aim the camera at the text, tap the screen below the paragraph you want to read, and the app will read the text out loud. One click is all it takes and that makes this app faster than the competition. 
+IcanRead is a mobile app that runs on any smartphone. It runs in the browser so there is no need to install anything. It is focused on analog text only. It has two modes, tripod and handheld. 
 
-**The tripod mode also stands out from any other app on the market.** In this mode you place the phone in a small tripod in front of you. The app will continuously film the desk and **when it sees you pointing at a text in a book, it will read it back to you.** IcanRead uses state of the art artificial inteligence to recognice a pointing finger. This makes it possible for it to passively help you read. 
+**The tripod mode stands out from any other app on the market.** In this mode you place the phone in a small tripod in front of you. The app will continuously film the desk and **when it sees you pointing at a text in a book, it will read it back to you.** IcanRead uses state of the art artificial inteligence to recognice a pointing finger. This makes it possible for it to passively help you read. 
+
+In the handheld mode you aim the camera at the text, tap the screen below the paragraph you want to read, and the app will read the text out loud. One click is all it takes and that makes this app faster than the competition. 
+
+
 
 IcanRead also uses the very best and most naturally sounding voices and it works in most languages.
 
