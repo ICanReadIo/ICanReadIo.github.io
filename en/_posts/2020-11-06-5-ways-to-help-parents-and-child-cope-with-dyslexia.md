@@ -37,7 +37,7 @@ The effect of having dyslexia may evoke a range of emotions such as embarrassmen
 
 ### How to develop vital personal qualities
 
-In addition to helping the child to cope with the learning disorder, teach him/her strategies to face life.  The natural instinct is to be fearful of the tease, mocking, ridicule, and feelings of being ‘different.’ “Do not allow your child to be defined by his diagnosis” (The International Dyslexia Association, 2010).  Instead, “inspire courage, determination, joy, and perseverance.  
+In addition to helping the child to cope with the learning disorder, teach him/her strategies to face life.  The natural instinct is to be fearful of the tease, mocking, ridicule, and feelings of being ‘different.’ “Do not allow your child to be defined by his diagnosis” (The International Dyslexia Association, 2010).  Instead, “inspire courage, determination, joy, and perseverance.”  
 
 ## Symptoms That Warrant a Professional Diagnosis
 The earlier parents can identify that the child is having some challenges in the learning process, the better it is to take actions and prevent deteriorating outcomes later.
