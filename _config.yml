@@ -68,6 +68,11 @@ defaults:
       path: "contact.html"
     values:
       full_width: true
+  -
+    scope:
+      path: "en/docs/*"
+    values:
+      sitemap: false    
 jekyll-archives:
   enabled: 
     - categories
