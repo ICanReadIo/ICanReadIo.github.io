@@ -1,0 +1,17 @@
+
+- name: Appen
+  link: /sv/
+  new_window: false
+  highlight: true
+- name: Artiklar
+  link: /sv/artiklar
+  new_window: false
+  highlight: true
+- name: Logga in
+  link: https://icanread.io
+  new_window: false
+  highlight: true
+- name: Skapa konto
+  link: https://icanread.io
+  new_window: false
+  highlight: true 
