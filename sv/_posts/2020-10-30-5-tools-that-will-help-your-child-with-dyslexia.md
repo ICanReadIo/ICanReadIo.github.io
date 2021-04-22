@@ -6,7 +6,8 @@ categories:
 author_staff_member: adam
 published: true
 ---
-{% include_relative what-is-dyslexia.md %}
+## Vad är dyslexi?
+Dyslexi är en vanlig nedsättning inom läsning och stavning. Personer med dyslexi har inte lägre intelligens än andra. De har specifika svårigheter med läsning och stavning.
 
 ## Hur kan verkty hjälpa?
 I dagens samhälle finns text i många former, både digitalt och analogt. För digital text finns stora möjligheter med assisterande verktyg, både för att lösa och att stava. Mobiler och smarta pennor kan hjälpa till att läsa tryckt text som böcker och stenciler. Det finns många talsyntes-lösningar på markanden.
