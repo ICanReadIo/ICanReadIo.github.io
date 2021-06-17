@@ -5,4 +5,7 @@
   - name: Skapa konto
     link: https://app.icanread.io
     new_window: false
+  - name: Priser
+    link: /sv/priser.html
+    new_window: false      
 

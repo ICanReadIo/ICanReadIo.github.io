@@ -15,3 +15,7 @@
   link: https://app.icanread.io
   new_window: false
   highlight: true 
+- name: Svenska
+  link: /sv
+  new_window: false
+  highlight: true    

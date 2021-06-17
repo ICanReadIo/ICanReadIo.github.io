@@ -5,4 +5,7 @@
   - name: Sign Up
     link: https://app.icanread.io
     new_window: false
+  - name: Pricing
+    link: /pricing.html
+    new_window: false    
 

@@ -1,52 +1,72 @@
-.plans {
-	@extend %flexbox;
-	@include flex-flow(wrap);
-	padding: 50px 0 30px 0;
 
-	.plan {
-		list-style: none;
-		padding: 0;
-		margin: 0 10px 50px 10px;
-		text-align: center;
-		border: 1px solid #eee;
-		border-radius: 5px;
-		box-shadow: 0px 0px 10px #eee;
-		width: 100%;
-
-		.highlighted {
-			font-size: 1.2em
-		}
-
-		.pricing-cta {
-			padding: 0;
-
-			a {
-				display: block;
-				box-sizing: border-box;
-				padding: 20px 0;
-				border-radius: 0 0 2px 2px;
-				border: 0;
-			}
-		}
-
-		@media #{$desktop} {
-			-webkit-flex: 1;
-			flex: 1;
-		}
-
-		li {
-			border-top-right-radius: 5px;
-			border-top-left-radius: 5px;
-			padding: 20px 0;
-			h3 {
-				padding: 0;
-				margin: 0;
-				color: #fff;
-				font-weight: normal;
-			}
-		}
-	}
-}
+.Subscribe{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: center;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	font-size: large;
+	background-color: #a4d5e0;
+	margin-bottom:20px;
+	margin-left: -20px;
+    margin-right: -20px;
+  }
+.Offer{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	align-items: center;
+	border: white;
+	border-style: solid;
+	width: 90%;
+	font-family: 'Comfortaa', serif;
+  }
+  .Offer div{
+	padding-left: 20px;
+	padding-right: 20px;
+  }
+  .Subscribe div {
+	text-align: center;
+	margin-top: 20px;
+  }
+  .OfferName{
+	font-size: 44px;
+  }
+  .OfferPrice .Price{
+	font-size: 66px;
+	margin-top: 0px;
+  }
+  .OfferPrice .Period{
+	margin-top: 0px;
+  }
+  .OfferDescription{
+	color: #78949b;
+  }
+  .OfferDescription b{
+	font-weight: 900;
+	color: #5f767b;
+  }
+  .OfferMark{
+	position: absolute;
+	right: 5%;
+	transform: rotate(30deg);
+	background-color: #ef7c8f;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+  }
+  .OfferMark._2{
+	background-color: #7777bf;
+  }
+  .SubscribeButton{
+	background-color: #35CCA9;
+	padding: 20px 40px 20px 40px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	color:white;
+  }
 
 .faq {
 	@media #{$desktop} {
@@ -58,14 +78,4 @@
 		padding: 25px 0;
 	}
 
-	dt {
-		font-weight: bold;
-		margin: 0 0 5px 0;
-	}
-
-	dd {
-		padding: 0;
-		margin: 0;
-
-	}
 }

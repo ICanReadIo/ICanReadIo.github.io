@@ -4,7 +4,7 @@
 		{% include post-title.html post=post %}
 		<div class="post-content">
 			{{ post.excerpt }}
-			<div class="cta button"><a href="{% include relative-src.html src=post.url %}">Learn More</a></div>
+			<div class="cta button"><a href="{% include relative-src.html src=post.url %}">{% if page.lang == "sv" %}{{site.data.sv.translations.learn_more}}{% else %}Learn more{% endif %}</a></div>
 		</div>
 	</li>
 {% endfor %}
