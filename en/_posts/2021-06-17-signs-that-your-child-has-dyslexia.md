@@ -1,5 +1,5 @@
 ---
-date: 2020-10-25
+date: 2021-06-17
 title: Signs that your child has Dyslexia - How to deal with it?
 categories:
   - symptoms

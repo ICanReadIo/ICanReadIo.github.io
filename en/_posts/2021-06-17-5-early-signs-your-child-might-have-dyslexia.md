@@ -1,5 +1,5 @@
 ---
-date: 2020-11-06
+date: 2017-06-17
 title: 5 early signs your child might have dyslexia 
 categories:
   - symptoms

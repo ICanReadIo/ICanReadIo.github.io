@@ -1,5 +1,5 @@
 ---
-date: 2020-11-02
+date: 2021-06-17
 title: Five tips for parents with dyslexic children
 categories:
   - mitigations
