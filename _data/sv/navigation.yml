@@ -1,8 +1,11 @@
-
 - name: Appen
   link: /sv/
   new_window: false
   highlight: true
+- name: Priser
+  link: /sv/priser.html
+  new_window: false  
+  highlight: true  
 - name: Artiklar
   link: /sv/artiklar
   new_window: false
@@ -14,8 +17,4 @@
 - name: Skapa konto
   link: https://app.icanread.io
   new_window: false
-  highlight: true 
-- name: English
-  link: /
-  new_window: false
-  highlight: true  
+  highlight: true
