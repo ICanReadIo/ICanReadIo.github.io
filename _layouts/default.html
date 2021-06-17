@@ -62,7 +62,7 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/">
+				<div class="company-name"><a href="{{ site.baseurl }}{% if page.lang %}/{{page.lang}}{% endif %}/">
 					<picture>
 						<source srcset="{{ site.baseurl }}/images/logo-with-slogan.webp" type="image/webp">		
 						<img src="{{ site.baseurl }}/images/logo-with-slogan.png" alt="IcanRead" />
