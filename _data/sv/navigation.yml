@@ -8,10 +8,10 @@
   new_window: false
   highlight: true
 - name: Logga in
-  link: https://beta.icanread.io
+  link: https://app.icanread.io
   new_window: false
   highlight: true
 - name: Skapa konto
-  link: https://beta.icanread.io
+  link: https://app.icanread.io
   new_window: false
   highlight: true 

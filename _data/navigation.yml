@@ -8,10 +8,10 @@
   new_window: false
   highlight: true
 - name: Login
-  link: https://beta.icanread.io
+  link: https://app.icanread.io
   new_window: false
   highlight: true
 - name: Sign Up
-  link: https://beta.icanread.io
+  link: https://app.icanread.io
   new_window: false
   highlight: true 
