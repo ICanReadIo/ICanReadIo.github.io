@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../ICanLearn"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../S3Viewer"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
