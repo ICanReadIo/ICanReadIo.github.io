@@ -1,5 +1,5 @@
 ---
-date: 2020-11-06
+date: 2021-07-08
 title: 5 Ways to Help Parents & Child Cope with Dyslexia
 categories:
   - symptoms
@@ -22,6 +22,7 @@ The struggles of the dyslexic child are their inability to recognize and manipul
 There are several ways that parents can help to support the dyslexic child.  First, it is important to recognize the symptoms (see below) early.  Subsequently, parents can provide: 
 
 - audiobooks as an alternative to reading, 
+- text-to-speech apps that can read text out loud for the child, an excellent example is [IcanRead](/en/)
 - encourage the use of a digital device for writing such as a computer or tablet, 
 - provide applications that can make learning fun by decoding into a game (for example, iLearning with Boing, Kindergarten Sight Words, The Winning Formula for Kids, KidECook), 
 - help children to use a ruler to read on a straight line – this helps with keeping them focused.<br><br>
