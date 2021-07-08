@@ -1,5 +1,5 @@
 ---
-date: 2021-06-17
+date: 2021-07-08
 title: Your Child Has Dyslexia. Now What?
 categories:
   - symptoms
@@ -30,7 +30,7 @@ It is difficult for your child to read. It may be difficult to pronounce the wor
 - ### Takes a very long time for Reading assignments
 
 Having these challenges can be tough on kids. But understand first, dyslexia is very common. Secondly, the children who have it are as smart as other children. This is just one of the many myths about dyslexia. Third, there are proven methods for teaching dyslexic children to read and improve their skills.
-The good news is that there are successful ways to educate struggling readers, and skills can be improved. There are also tools that can help.  Here are some steps to take if you are concerned that your child has dyslexia.
+The good news is that there are successful ways to educate struggling readers, and skills can be improved. There are also tools that can help. Here are some steps to take if you are concerned that your child has dyslexia.
 
 1. ### Tell your child that there is help 
 Problems in school can make children feel lonely and feel bad about themselves. Let your child know that you are working with a teacher to find the best ways to help. Knowing that skills can be improved will help your child stay motivated.
