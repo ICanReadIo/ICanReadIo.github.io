@@ -1,3 +1,4 @@
+
 ---
 date: 2020-10-15
 title: 5 tools that will help your child with dyslexia 
@@ -20,12 +21,13 @@ Below are five tools in different areas that can help your child perform better 
 
 The European Union has a project that aims at supporting cognitive accessability of web pages. It runs in the Chrome or Firefox web browsers and it will read any web page out loud. It also has other functions like making text more readable and showing images that explain words. The tool is free and available to anyone at the [project website](https://www.easyreading.eu/easy-reading-program/)
 
+<iframe id="sib" width="100%" height="650px" src="https://17abdf7c.sibforms.com/serve/MUIEAG4ABlzn5_C_d69co9dMTJhZ1MUKaiJn_J_RYUNAmIL1lrvA4Gs0wSHmhPwjICXLAgEZpNE3ZOgSBlVQrHfX03rsOTOBaDKC1qmkA8rPsFX-_n9SGyMFuLMq4HW8IS3QiFNGRrXwck-HGS-4x97tBzwU31t_y6ZZlFUZWsqyhQkOi1dF-uS8G35RKhw4SzBKGSZI_evYbYHv" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+
 ### 2. Microsoft Immersive Reader
 
 <img style="border-style:solid;" src="/images/ImmersiveReader.png" alt="Microsoft Immersive Reader">
 
-When writing and reading texts in Microsoft Word there is a good tool available. It is called the Immersive reader. It will read text out loud and also show images explaining the words. You can read the text yourself and get support by dividing words into syllables, focus at one line at a time and much more. It can be a great help for a dyslexic person to write text and then listen to it to catch when the regular spelling correction has corrected to the wrong word. 
-
+When writing and reading texts in Microsoft Word there is a good tool available. It is called the Immersive reader. It will read text out loud and also show images explaining the words. You can read the text yourself and get support by dividing words into syllables, focus at one line at a time and much more. It can be a great help for a dyslexic person to write text and then listen to it to catch when the regular spelling correction has corrected to the wrong word
 ### 3. IcanRead
 <img style="border-style:solid;" src="/images/pointing.JPG" alt="IcanRead">
 IcanRead is a mobile app that runs on any smartphone. It runs in the browser so there is no need to install anything. It is focused on analog text only. It has two modes, tripod and handheld. 

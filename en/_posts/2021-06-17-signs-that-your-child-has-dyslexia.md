@@ -20,6 +20,8 @@ People with Dyslexia have issues in the part of the brain that develops our ling
 ## Signs of Dyslexia
 If dyslexic kids are not recognized on time, and they run the risk of being humiliated for progressing slowly, they can become less confident and low-esteemed individuals of society. That is why it is important to recognize dyslexia in your child as soon as possible. Each age group shows different signs of dyslexia.
 
+<iframe id="sib" width="100%" height="650px" src="https://17abdf7c.sibforms.com/serve/MUIEAG4ABlzn5_C_d69co9dMTJhZ1MUKaiJn_J_RYUNAmIL1lrvA4Gs0wSHmhPwjICXLAgEZpNE3ZOgSBlVQrHfX03rsOTOBaDKC1qmkA8rPsFX-_n9SGyMFuLMq4HW8IS3QiFNGRrXwck-HGS-4x97tBzwU31t_y6ZZlFUZWsqyhQkOi1dF-uS8G35RKhw4SzBKGSZI_evYbYHv" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+
 Let us address them one by one:
 
 ### Preschool Stage:

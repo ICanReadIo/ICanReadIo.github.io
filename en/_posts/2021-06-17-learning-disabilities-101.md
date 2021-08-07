@@ -31,6 +31,9 @@ Dyslexia is difficulty in the use and processing of linguistic and symbolic code
 - The inability to read small “function” words such as that, an, in
 - Stumbling on reading multi-syllabic words, or the failure to come close to sounding out the full word
 - Omitting parts of words when reading; the failure to decode parts within a word,as if someone had chewed a hole in the middle of the word, such as conible for convertible
+
+<iframe id="sib" width="100%" height="650px" src="https://17abdf7c.sibforms.com/serve/MUIEAG4ABlzn5_C_d69co9dMTJhZ1MUKaiJn_J_RYUNAmIL1lrvA4Gs0wSHmhPwjICXLAgEZpNE3ZOgSBlVQrHfX03rsOTOBaDKC1qmkA8rPsFX-_n9SGyMFuLMq4HW8IS3QiFNGRrXwck-HGS-4x97tBzwU31t_y6ZZlFUZWsqyhQkOi1dF-uS8G35RKhw4SzBKGSZI_evYbYHv" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+
 - A terrific fear of reading out loud; the avoidance of oral reading
 - Oral reading filled with substitutions, omissions, and mispronunciations
 - Oral reading that is choppy and labored, not smooth or fluent

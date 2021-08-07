@@ -19,6 +19,8 @@ Lots of parent finds that their children lose their self-esteem and that they th
 
 The struggles of the dyslexic child are their inability to recognize and manipulate sounds in language, difficulty decoding new words, or breaking them down into manageable chunks so that they can sound them out. This causes difficulty with numbers, reading, writing, and spelling. Although dyslexia is not something that will ever leave the child, some strategies can be employed to help the child achieve academically.  
 
+<iframe id="sib" width="100%" height="650px" src="https://17abdf7c.sibforms.com/serve/MUIEAG4ABlzn5_C_d69co9dMTJhZ1MUKaiJn_J_RYUNAmIL1lrvA4Gs0wSHmhPwjICXLAgEZpNE3ZOgSBlVQrHfX03rsOTOBaDKC1qmkA8rPsFX-_n9SGyMFuLMq4HW8IS3QiFNGRrXwck-HGS-4x97tBzwU31t_y6ZZlFUZWsqyhQkOi1dF-uS8G35RKhw4SzBKGSZI_evYbYHv" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+
 There are several ways that parents can help to support the dyslexic child.  First, it is important to recognize the symptoms (see below) early.  Subsequently, parents can provide: 
 
 - audiobooks as an alternative to reading, 
