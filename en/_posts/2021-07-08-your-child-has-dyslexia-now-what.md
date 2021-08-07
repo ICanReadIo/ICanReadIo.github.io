@@ -32,6 +32,8 @@ It is difficult for your child to read. It may be difficult to pronounce the wor
 Having these challenges can be tough on kids. But understand first, dyslexia is very common. Secondly, the children who have it are as smart as other children. This is just one of the many myths about dyslexia. Third, there are proven methods for teaching dyslexic children to read and improve their skills.
 The good news is that there are successful ways to educate struggling readers, and skills can be improved. There are also tools that can help. Here are some steps to take if you are concerned that your child has dyslexia.
 
+<iframe id="sib" width="100%" height="900px" src="https://17abdf7c.sibforms.com/serve/MUIEAG4ABlzn5_C_d69co9dMTJhZ1MUKaiJn_J_RYUNAmIL1lrvA4Gs0wSHmhPwjICXLAgEZpNE3ZOgSBlVQrHfX03rsOTOBaDKC1qmkA8rPsFX-_n9SGyMFuLMq4HW8IS3QiFNGRrXwck-HGS-4x97tBzwU31t_y6ZZlFUZWsqyhQkOi1dF-uS8G35RKhw4SzBKGSZI_evYbYHv" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+
 1. ### Tell your child that there is help 
 Problems in school can make children feel lonely and feel bad about themselves. Let your child know that you are working with a teacher to find the best ways to help. Knowing that skills can be improved will help your child stay motivated.
 
