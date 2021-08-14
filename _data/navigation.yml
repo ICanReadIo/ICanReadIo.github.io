@@ -11,10 +11,10 @@
   new_window: false
   highlight: true
 - name: Login
-  link: https://app.icanread.io?nibrowser=no
-  new_window: true
+  link: https://app.icanread.io
+  new_window: false
   highlight: true
 - name: Sign Up
-  link: https://app.icanread.io?nibrowser=no
-  new_window: true
+  link: https://app.icanread.io
+  new_window: false
   highlight: true
