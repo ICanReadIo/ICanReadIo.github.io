@@ -7,9 +7,9 @@ image: /images/tripod.jpg
 	<div class="text-container">
 		<h1 class="editable">The IcanRead app</h1>
 		<h2 class="subtext editable">POINT AND LISTEN</h2>
-		<p>Reading should quick and effortless. For most it is, but not for everyone. Now it can be. 
+		<p>Reading should be quick and effortless. For most it is, but not for everyone. Now it can be. 
 			The IcanRead app makes it effortless for everyone to read. Just point and listen.</p>
-		<div class="cta button alt"><a target="_blank" href="https://app.icanread.io?nibrowser=no">Try it for free now</a></div>
+		<div class="cta button alt"><a target="_blank" href="https://app.icanread.ioß">Try it for free now</a></div>
 		<div class="rounded">
 			<video width="100%" controls>
 				<source src="/videos/IcanReadPromo.mp4" type="video/mp4">
@@ -18,6 +18,92 @@ image: /images/tripod.jpg
 		</div>
 	</div>
 </section>
+
+<script type="text/javascript">
+/**
+ * Track percentage of the video watched.
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
+ * @see https://developers.google.com/analytics/devguides/collection/analyticsjs/events
+ * @see https://developers.google.com/analytics/devguides/collection/gtagjs/events
+ */
+ (function() {
+  var /** boolean */ trackDynamicContent = true;
+  var /** string */ attribute = 'data-media-listener';
+  var /** number */ step = 25;
+
+  function init() {
+    var /** NodeList */ videos = document.getElementsByTagName('VIDEO');
+    var /** number */ length = videos.length;
+
+    for (; length--;) {
+      var /** Element */ video = videos[length];
+
+      // Checking if this video has an event listener.
+      if (!video.hasAttribute(attribute)) {
+        // Setting the attribute flag that a listener has already been added to this video.
+        video.setAttribute(attribute, 1);
+        
+        // Adding an event listener to this video.
+        video.addEventListener('timeupdate', function() {
+          // Calculating watched percentage based on current time and video duration.
+          var /** number */ percentage = this.currentTime * 100 / this.duration;
+          // Calculating an integer value based on percentage and step.
+          var /** number */ value = ~~(percentage / step) * step;
+
+          // Checking if this value is not tracked yet.
+          if (!video.hasAttribute(attribute + value) && value % step == 0) {
+            // Setting the attribute flag that this value already tracked.
+            video.setAttribute(attribute + value, 1);
+
+            // TODO: Remove logging.
+            console.log('percentage:', percentage);
+            console.log('value:', value);
+            
+            var /** string */ hitType = 'event';
+            var /** string */ eventCategory = 'media';
+            var /** string */ eventAction = 'progress';
+            var /** string */ eventLabel = this.currentSrc || this.src;
+            var /** number */ eventValue = value;
+
+            /**
+             * The following code snippet shows how to measure events with analytics.js.
+             * @see https://developers.google.com/analytics/devguides/collection/analyticsjs/events
+             */
+            if ('function' == typeof window.ga) {
+              ga('send', {
+                hitType: hitType,
+                eventCategory: eventCategory,
+                eventAction: eventAction,
+                eventLabel: eventLabel,
+                eventValue: eventValue,
+                nonInteraction: true
+              });
+            }
+            
+            /**
+             * The following code snippet shows how to use gtag.js to send Google Analytics Events.
+             * @see https://developers.google.com/analytics/devguides/collection/gtagjs/events
+             */
+            if ('function' == typeof window.gtag) {
+              gtag(hitType, eventAction, {
+                'event_category': eventCategory,
+                'event_label': eventLabel,
+                'event_value': eventValue,
+                'non_interaction': true
+              });
+            }
+          }
+        });
+      }
+    }
+
+    trackDynamicContent && setTimeout(init, 1E3);
+  }
+
+  init();
+})();
+</script>
 
 <div class="content">
 	<section>	
