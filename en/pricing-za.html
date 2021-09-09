@@ -5,20 +5,18 @@ description: Pick the subscription length that fits your needs. The longer you s
 canonical_url: 'https://www.icanread.io/en/pricing.html'
 pricing_table:
   - name: Month
-    price: $14.99
+    price: R199
     period: month
     description: You pay monthly and can cancel your subscription at any time.
   - name: 6 months
-    price: $74.99
+    price: R990
     period: 6 months
-    description: You pay for 6 months and save $14 as compared to the monthly price
+    description: You pay for 6 months and save R204 as compared to the monthly price
   - name: 1 year
-    price: $124.99
+    price: R1749
     period: year  
-    description: You get IcanRead for a full year for just $124.99. You save $54 compared with the monthly price.
+    description: You get IcanRead for a full year for just R1749. You save R639 compared with the monthly price.
 faq:
-  - question: What currency are the prices in?
-    answer: You pay in USD. But you can of course subscribe from any country.
   - question: What types of payment do you accept?
     answer: Card payment including MasterCard, Visa or American Express. We also accept Google pay and Apple pay. Payments are done automatically at the beginning of a new subscription period. 
   - question: Can I cancel my subscription?
@@ -26,13 +24,7 @@ faq:
   - question: Questions?
     answer: Contact us for any further questions at <a href="mailto:info@icanread.io">info@icanread.io</a>.
 ---
-<script>
-  var lang = navigator.language || navigator.userLanguage;
-  if (lang.indexOf('en-ZA') == 0 || lang.indexOf('en-za') == 0){
-    window.location = '/en/pricing-za.html';
-  }
 
-</script>
 <div class="Subscribe">
 	{% for plan in page.pricing_table %}
   <div class="Offer">
