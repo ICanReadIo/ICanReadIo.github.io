@@ -6,8 +6,8 @@
   link: /en/pricing.html
   new_window: false
   highlight: true 
-- name: Articles
-  link: /en/articles
+- name: FAQ
+  link: /en/faq.html
   new_window: false
   highlight: true
 - name: Login
