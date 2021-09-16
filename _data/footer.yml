@@ -1,10 +1,15 @@
+
 - links:
   - name: Login
     link: https://app.icanread.io
     new_window: false
   - name: Sign Up
     link: https://app.icanread.io
-    new_window: false
+    new_window: false  
+  - name: About us
+    link: /en/about.html
+    new_window: false        
+- links:    
   - name: Articles
     link: /en/articles
     new_window: false  
