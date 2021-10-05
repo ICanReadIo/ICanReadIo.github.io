@@ -15,6 +15,14 @@
     new_window: false  
   - name: Svenska
     link: /sv/
-    new_window: false    
+    new_window: false
+  - name: Instagram
+    link: https://www.Instagram.com/icanreadapp
+    new_window: true
+    social_icon: Instagram 
+  - name: Facebook
+    link: https://www.facebook.com/icanread.io
+    new_window: true
+    social_icon: Facebook     
     
 
