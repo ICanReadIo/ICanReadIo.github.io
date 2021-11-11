@@ -4,16 +4,6 @@ layout: page
 <div class="blog-post text-container">
 	{% include post-title.html post=page %}
 
-	<script>
-		if(analytics){
-			analytics.track('Viewed article', {
-				title: "{{page.title}}",
-				language: "{{page.categories | first}}",
-				{% if page.categories.size>1 %}category1: "{{page.categories | slice: 1}}",{% endif %}
-				{% if page.categories.size>2 %}category2: "{{page.categories | slice: 2}}",{% endif %}
-				{% if page.categories.size>3 %}category3: "{{page.categories | slice: 3}}",{% endif %}
-	  		});
-	  	}</script>
 
 	<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
 	<div class="post-content">
