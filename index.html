@@ -175,7 +175,7 @@ image: /images/tripod.jpg
 							<source src="https://app.icanread.io/videos/Sample-nl.mp3" type="audio/mp3"> 
 						</audio> 
 					</li>
-					<li data-lang="nb" style="display: none">
+					<li data-lang="no" style="display: none">
 						<div>Norwegian</div>
 						<audio controls> 
 							<source src="https://app.icanread.io/videos/Sample-nb.mp3" type="audio/mp3"> 
@@ -204,6 +204,10 @@ image: /images/tripod.jpg
 						document.querySelector("#sample-list li[data-lang=af]").style.display = "block";
 						document.querySelector("#sample-list li[data-lang=zu]").style.display = "block";
 						console.log("Showing samples for south africa");
+					}
+					if ((lang.length==5&&lang.substring(3,5)=="no")||(lang.length==2&&lang=="nb")||(lang.length==2&&lang=="nn")){
+						document.querySelector("#sample-list li[data-lang=no]").style.display = "block";
+						console.log("Showing samples for norway");
 					}
 				</script>
 			</div>
