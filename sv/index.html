@@ -26,8 +26,62 @@ lang: sv
 	<section>	
 		<div class="container flex">
 			<div class="text editable">
+				<h2>Hur låter det?</h2>
+				<p>IcanRead använder röster skapade av artificiell intelligens. De låter som en riktig människa. Det ökar hörförståelsen hos lyssnaren.</p>
+				<p>Klicka nedan för att lyssna på ett prov.</p>
+				<ul id="sample-list" >
+					<li>
+						<div>Svenska</div>
+						<audio controls> 
+							<source src="{{ site.baseurl }}/audio/sample-sv.mp3" type="audio/mp3"> 
+						</audio> 
+					</li>
+					<li>
+						<div>Engelska (Amerikansk)</div>
+						<audio controls> 
+							<source src="{{ site.baseurl }}/audio/sample-en-US.mp3" type="audio/mp3"> 
+						</audio> 
+					</li>
+					<li >
+						<div>Engelska (Brittisk)</div>
+						<audio controls> 
+							<source src="{{ site.baseurl }}/audio/sample-en-GB.mp3" type="audio/mp3"> 
+						</audio> 
+					</li>
+
+
+				</li>	
+				<script>
+					var lang = navigator.language || navigator.userLanguage;
+					lang = lang.toLowerCase();
+					if (lang.length===5&&document.querySelector("#sample-list li[data-lang="+ lang + "]")){
+						document.querySelector("#sample-list li[data-lang="+ lang + "]").style.display = "block";
+						console.log("Showing sample for",lang);
+					}
+					if (lang.length>=2&&document.querySelector("#sample-list li[data-lang="+ lang.substring(0,2) + "]")){
+						document.querySelector("#sample-list li[data-lang="+ lang.substring(0,2) + "]").style.display = "block";
+						console.log("Showing sample for",lang.substring(0,2));
+					}
+					if (lang.length==5&&lang.substring(3,5)=="za"){
+						document.querySelector("#sample-list li[data-lang=af]").style.display = "block";
+						document.querySelector("#sample-list li[data-lang=zu]").style.display = "block";
+						console.log("Showing samples for south africa");
+					}
+				</script>
+			</div>
+			<div class="image rounded">
+				<picture>
+					<source srcset="{{ site.baseurl }}/images/soundWave.webp" type="image/webp">		
+					<img src="{{ site.baseurl }}/images/soundWave.jpeg" alt="Waves" />
+				</picture>	
+			</div>
+		</div>
+	</section>
+	<section>	
+		<div class="container flex">
+			<div class="text editable">
 				<h2>Hur funkar det?</h2>
-				<p>IcanRead läser text, oavsett om det är i en bok, på en skärm eller till och med handskrivet. Rösten som läser är den mest naturliga som finns tillgänglig. Du kan nästan inte skilja den från en verklig människa.</p>
+				<p>IcanRead läser text, oavsett om det är i en bok, på en skärm eller till och med handskrivet. </p>
 				<p>Appen funkar i alla mobiler.</p>
 				<p>Det finns två lägen, stativ- och handhållet läge.</p>
 			</div>

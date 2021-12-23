@@ -197,7 +197,26 @@ blockquote{
 	padding-inline-start: 0px;
 	list-style: none;
   }
-  
+  #sample-list{
+	columns: 1;
+	-webkit-columns: 1;
+	-moz-columns: 1;
+	padding-inline-start: 0px;
+	list-style: none;
+  }
+
+  #sample-list li{
+	display:flex;
+	flex-direction:column;
+  }
+  #sample-list li div:before{
+	content: '✓ '; 
+	color:#35CCA9;
+  }
+  #sample-list li div{
+	margin-bottom: 10px;
+	margin-top: 10px;
+  }
   ul.lang-list li:before{
 	content: '✓ '; 
 	color:#35CCA9;
