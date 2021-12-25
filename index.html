@@ -245,6 +245,16 @@ image: /images/tripod.jpg
 						document.querySelector("#sample-list li[data-lang=no]").style.display = "block";
 						console.log("Showing samples for norway");
 					}
+					var audios = document.querySelectorAll("#sample-list li audio")
+					for (i = 0; i < audios.length; ++i) {
+						var audio = audios[i];
+						audio.addEventListener("play",(e) => {
+							console.log("play audio",e.target.currentSrc)
+							if ('function' == typeof window.ga) {
+								window.ga('send', 'event', 'AudioSample', 'play', e.target.currentSrc);
+							}	
+						})
+					}
 				</script>
 			</div>
 			<div class="image rounded">
