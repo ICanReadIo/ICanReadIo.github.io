@@ -34,7 +34,6 @@ Nar man jobbar med text i Microsoft Word finns ett bra verktyg tillgängligt. De
 <img style="border-style:solid;" src="/images/pointing.JPG" alt="IcanRead">
 IcanRead är en mobilapp som kan läsa upp text från en bok eller tidning. Den har två lägen stativ och handhållen. 
 
-**The tripod mode stands out from any other app on the market.** In this mode you place the phone in a small tripod in front of you. The app will continuously film the desk and **when it sees you pointing at a text in a book, it will read it back to you.** IcanRead uses state of the art artificial inteligence to recognice a pointing finger. This makes it possible for it to passively help you read. 
 **Stativläget är där IcanRead skiljer som mest från andra appar på marknaden** I detta lägget fäster du mobilen på ett bordsstativ framför dig. Mobilens kamera filmar och **när den ser ett pekande finger så läser den texten du pekat på.** IcanRead använder värlsdledande artificiell intelligens för at känna igen ett pekande finger. Detta gör det möjligt att helt passivt underlätta ditt lärande.
 
 I det handhållna läget riktar du mobilen mot texten och klickar under det stycke du vill läsa. Sen läses texten upp. Ett klick är allt som behövs. Det gör IcanRead snabbare och smidigare än övriga liknande appar.
