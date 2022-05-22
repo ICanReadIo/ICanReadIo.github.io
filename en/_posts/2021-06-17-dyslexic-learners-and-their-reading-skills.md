@@ -12,7 +12,7 @@ According to the global dyslexia association, approximately 15% of the entire wo
 
 ![Student graduating](/images/graduation.jpg)
 <figcaption>
-<span>Photo by <a href="https://unsplash.com/@juanmramosjr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Juan Ramos</a> on <a href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a rel="nofollow" href="https://unsplash.com/@juanmramosjr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Juan Ramos</a> on <a rel="nofollow" href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </figcaption>
 
 Regardless, the primary concern arises when schools and organisations use traditional teaching methods to teach dyslexia learners alongside typical learners. 

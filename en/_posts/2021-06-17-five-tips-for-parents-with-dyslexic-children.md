@@ -10,7 +10,7 @@ Dyslexia is not an irreversible condition; however, many parents with dyslexic c
 
 ![Reading child](/images/girl-in-pink-shirt-reading.jpg)
 <figcaption>
-<span>Photo by <a href="https://unsplash.com/@jonathanborba?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jonathan Borba</a> on <a href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a rel="nofollow" href="https://unsplash.com/@jonathanborba?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jonathan Borba</a> on <a rel="nofollow" href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </figcaption>
 
 1. ### Intervene as early as possible.  

@@ -147,7 +147,7 @@
 					{% for column in site.data.footer %}
 					<ul class="footer-links">
 						{% for link in column.links %}
-							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+							<li><a {% if link.new_window %}target="_blank"{% endif %}  rel="nofollow" href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
 								{% if link.social_icon %}
 									{% include social-icon.html icon=link.social_icon %}
 								{% endif %}
@@ -157,7 +157,7 @@
 					{% endfor %}
 				{% endif %}	
 				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} IcanRead.  • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
+				<p class="copyright">&copy; {{ site.time | date: '%Y' }} IcanRead.  • <a rel="nofollow" href="https://cloudcannon.com/">Template by CloudCannon</a></p>
 			</div>
 		</footer>
 		<script>

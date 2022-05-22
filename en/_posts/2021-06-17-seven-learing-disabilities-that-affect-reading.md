@@ -13,7 +13,7 @@ All children learn in highly individual ways. Children with learning disabilitie
 
 ![Boy with glasses](/images/boy-with-glasses.jpg)
 <figcaption>
-<span>Photo by <a href="https://unsplash.com/@realbench?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carlos Lindner</a> on <a href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a rel="nofollow" href="https://unsplash.com/@realbench?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carlos Lindner</a> on <a rel="nofollow" href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </figcaption>
 
 ## Dyslexia
@@ -28,7 +28,7 @@ Autism is a complex developmental disability that typically appears during the f
 
 ![Girl writing](/images/girl-writing.jpg)
 <figcaption>
-<span>Photo by <a href="https://unsplash.com/@hannaholinger?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Hannah Olinger</a> on <a href="https://unsplash.com/s/photos/writing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a rel="nofollow" href="https://unsplash.com/@hannaholinger?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Hannah Olinger</a> on <a rel="nofollow" href="https://unsplash.com/s/photos/writing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </figcaption>
 
 ## Dysgraphia
@@ -40,7 +40,7 @@ Dyscalculia is a broad term for severe difficulties in math and includes all typ
 
 ![Smiling boy](/images/smiling-boy.jpg)
 <figcaption>
-<span>Photo by <a href="https://unsplash.com/@jxnsartstudio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Garrett Jackson</a> on <a href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by rel="nofollow" href="https://unsplash.com/@jxnsartstudio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Garrett Jackson</a> on <a rel="nofollow" href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </figcaption>
 
 ## ADHD
@@ -53,7 +53,7 @@ Auditory processing is the term used to describe what happens when your brain re
 
 ![Smiling boy](/images/smiling-boy-2.jpg)
 <figcaption>
-<span>Photo by <a href="https://unsplash.com/@zahraamiri_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zahra Amiri</a> on <a href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a rel="nofollow" href="https://unsplash.com/@zahraamiri_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zahra Amiri</a> on <a rel="nofollow" href="https://unsplash.com/@adamgustavsson/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </figcaption>
 
 ## Specific Language Impairment (SLI)

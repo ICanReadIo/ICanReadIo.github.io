@@ -35,7 +35,7 @@ They may tell you that letters move or dance when she tries to read. It is an ev
 
 ![Reading child](/images/child_book_upsidedown.jpg)
 <figcaption>
-<span>Photo by <a href="https://unsplash.com/@streetwindy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Streetwindy</a> on <a href="https://unsplash.com/s/photos/child-read?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>
+<span>Photo by <a rel="nofollow" href="https://unsplash.com/@streetwindy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Streetwindy</a> on <a rel="nofollow" href="https://unsplash.com/s/photos/child-read?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>
 </figcaption>
 
 
