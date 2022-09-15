@@ -39,17 +39,15 @@ and comprehension. Your child may have trouble identifying words and understandi
 they have just read. They may also have difficulty using context clues to figure out the
 meaning of a sentence. Your child can also have trouble writing because of poor spelling,
 punctuation, and capitalization.
-
-<iframe id="sib" width="100%" height="650px" src="https://17abdf7c.sibforms.com/serve/MUIEAG4ABlzn5_C_d69co9dMTJhZ1MUKaiJn_J_RYUNAmIL1lrvA4Gs0wSHmhPwjICXLAgEZpNE3ZOgSBlVQrHfX03rsOTOBaDKC1qmkA8rPsFX-_n9SGyMFuLMq4HW8IS3QiFNGRrXwck-HGS-4x97tBzwU31t_y6ZZlFUZWsqyhQkOi1dF-uS8G35RKhw4SzBKGSZI_evYbYHv" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
-
 4. ### Consider using technical tools.
-IIf your child is having trouble reading, there are a number
+If your child is having trouble reading, there are a number
 of technological tools that can help. For example, you can get a program that reads text out
 loud for your child. There are also programs that teach your child how to sound out words.
 5. ### Boost your child's confidence. 
 Teach your child about dyslexia, and explain that it is just a
 "learning difference". Help them understand that dyslexia does not define who they are.
 
+<iframe id="sib" width="100%" height="650px" src="https://17abdf7c.sibforms.com/serve/MUIEAG4ABlzn5_C_d69co9dMTJhZ1MUKaiJn_J_RYUNAmIL1lrvA4Gs0wSHmhPwjICXLAgEZpNE3ZOgSBlVQrHfX03rsOTOBaDKC1qmkA8rPsFX-_n9SGyMFuLMq4HW8IS3QiFNGRrXwck-HGS-4x97tBzwU31t_y6ZZlFUZWsqyhQkOi1dF-uS8G35RKhw4SzBKGSZI_evYbYHv" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
 
 Now you have hopefully been inspired to consider getting your child some support. It is
 tough, but know that you are not alone and there are strategies that you can use. I hope this
