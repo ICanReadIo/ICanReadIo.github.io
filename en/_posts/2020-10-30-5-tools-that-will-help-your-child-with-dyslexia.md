@@ -1,4 +1,3 @@
-
 ---
 date: 2020-10-15
 title: 5 tools that will help your child with dyslexia 

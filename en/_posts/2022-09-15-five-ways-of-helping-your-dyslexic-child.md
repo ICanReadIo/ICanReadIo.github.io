@@ -33,7 +33,7 @@ how to compensate for their weaknesses. They also can teach special strategies t
 help them read more effectively. You can also hire a professional who specializes in learning
 disabilities to help your child. Sometimes a tutor who has experience working with children
 who have dyslexia can help a lot.
-3. ### BTreat the "big" problems first.
+3. ### Treat the "big" problems first.
 Most cases of dyslexia involve trouble with reading fluency
 and comprehension. Your child may have trouble identifying words and understanding what
 they have just read. They may also have difficulty using context clues to figure out the
