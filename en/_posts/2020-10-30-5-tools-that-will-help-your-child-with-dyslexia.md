@@ -5,6 +5,7 @@ categories:
   - tools
 author_staff_member: adam
 published: true
+permalink: /en/5-tools-that-will-help-your-child-with-dyslexia.html
 ---
 {% include_relative what-is-dyslexia.md %}
 
