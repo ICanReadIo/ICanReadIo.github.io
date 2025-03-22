@@ -25,6 +25,11 @@ social:
 
 timezone: Etc/UTC
 
+# Language settings
+languages: ["en", "af"]
+default_lang: "en"
+exclude_from_localizations: ["javascript", "images", "css"]
+
 collections:
   staff_members:
     _hide_content: true

@@ -10,8 +10,13 @@ layout: page
 		{{ content }}
 
 		<div class="author">
-			{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: ".html" %}
-			{% assign author = site.staff_members | where: "url", author_id | first %}
+			{% if page.lang == "af" %}
+				{% assign author = site.data.af.staff_members | where: "name", page.author_staff_member | first %}
+			{% elsif page.lang == "sv" %}
+				{% assign author = site.data.sv.staff_members | where: "name", page.author_staff_member | first %}
+			{% else %}
+				{% assign author = site.staff_members | where: "name", page.author_staff_member | first %}
+			{% endif %}
 			<div class="square-image"><img src="{% include relative-src.html src=author.image_path %}" alt="{{ author.name }}"/></div>
 			<p class="blurb">{{ author.blurb }}</p>
 		</div>

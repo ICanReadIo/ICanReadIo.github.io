@@ -146,6 +146,18 @@
 							{% endfor %}
 						</ul>
 						{% endfor %}
+					{% elsif page.lang == "af" %}
+						{% for column in site.data.af.footer %}
+						<ul class="footer-links">
+							{% for link in column.links %}
+								<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+									{% if link.social_icon %}
+										{% include social-icon.html icon=link.social_icon %}
+									{% endif %}
+									{{ link.name }}</a></li>
+							{% endfor %}
+						</ul>
+						{% endfor %}
 					{% else %}	
 					{% for column in site.data.footer %}
 					<ul class="footer-links">
@@ -158,7 +170,7 @@
 						{% endfor %}
 					</ul>
 					{% endfor %}
-				{% endif %}	
+					{% endif %}	
 				</div>
 				<p class="copyright">&copy; {{ site.time | date: '%Y' }} IcanRead.  • <a rel="nofollow" href="https://cloudcannon.com/">Template by CloudCannon</a></p>
 			</div>

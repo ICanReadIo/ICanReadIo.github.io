@@ -1,0 +1,20 @@
+- name: Die Toepassing
+  link: /af/
+  new_window: false
+  highlight: true
+- name: Pryse
+  link: /af/pricing.html
+  new_window: false
+  highlight: true
+- name: FAQ
+  link: /af/faq.html
+  new_window: false
+  highlight: true
+- name: Meld aan
+  link: https://app.icanread.io
+  new_window: false
+  highlight: true
+- name: Skep rekening
+  link: https://app.icanread.io
+  new_window: false
+  highlight: true 

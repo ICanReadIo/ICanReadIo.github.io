@@ -1,0 +1,258 @@
+---
+title: Die IcanRead toepassing - WYS EN LUISTER
+description: "n Hulpmiddel vir mense met disleksie"
+layout: default
+canonical_url: "https://www.icanread.io/af/"
+lang: af
+---
+<section class="hero">
+	<div class="text-container">
+		<h1 class="editable">Die IcanRead toepassing</h1>
+		<h2 class="subtext editable">WYS EN LUISTER</h2>
+		<p>Om toegang tot die regte hulpmiddels te hê kan lewensveranderend wees vir iemand met disleksie. Wetenskap toon dat die gebruik van teks-na-spraak hulpmiddels begrip verbeter. 
+			IcanRead sal enige teks hardop lees. Wys en Luister.</p>
+		<div class="cta button alt"><a target="_blank" href="https://app.icanread.io">Probeer dit nou gratis</a></div>
+		<div class="container flex" style="margin-top:50px;margin-bottom: 50px">
+            <div class="image circle">
+				<picture>	
+					<source srcset="{{ site.baseurl }}/images/Beth.webp" type="image/webp">	
+					<img src="{{ site.baseurl }}/images/Beth.jpeg" alt="Beth is 'n gelukkige gebruiker van IcanRead">
+				</picture>	
+			</div>
+			<div class="text editable">
+				<blockquote>Dit sal regtig 'n lewensredder wees vir my dogters. Baie dankie. Jy is 'n verhoorde gebed.
+				</blockquote>
+              <i>Beth, ma van twee dislektiese dogters</i>
+			</div>
+		</div>
+		<div class="rounded">
+			<video width="100%" controls>
+				<source src="/videos/IcanReadPromo.mp4#t=0.001" type="video/mp4"> 
+
+			  Jou blaaier ondersteun nie die video-etiket nie.
+			</video>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript">
+/**
+ * Track percentage of the video watched.
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
+ * @see https://developers.google.com/analytics/devguides/collection/analyticsjs/events
+ * @see https://developers.google.com/analytics/devguides/collection/gtagjs/events
+ */
+ (function() {
+  var /** boolean */ trackDynamicContent = true;
+  var /** string */ attribute = 'data-media-listener';
+  var /** number */ step = 25;
+
+  function init() {
+    var /** NodeList */ videos = document.getElementsByTagName('VIDEO');
+    var /** number */ length = videos.length;
+
+    for (; length--;) {
+      var /** Element */ video = videos[length];
+
+      // Checking if this video has an event listener.
+      if (!video.hasAttribute(attribute)) {
+        // Setting the attribute flag that a listener has already been added to this video.
+        video.setAttribute(attribute, 1);
+        
+        // Adding an event listener to this video.
+        video.addEventListener('timeupdate', function() {
+          // Calculating watched percentage based on current time and video duration.
+          var /** number */ percentage = this.currentTime * 100 / this.duration;
+          // Calculating an integer value based on percentage and step.
+          var /** number */ value = ~~(percentage / step) * step;
+
+          // Checking if this value is not tracked yet.
+          if (!video.hasAttribute(attribute + value) && value % step == 0) {
+            // Setting the attribute flag that this value already tracked.
+            video.setAttribute(attribute + value, 1);
+
+            // TODO: Remove logging.
+            console.log('percentage:', percentage);
+            console.log('value:', value);
+            
+            var /** string */ hitType = 'event';
+            var /** string */ eventCategory = 'media';
+            var /** string */ eventAction = 'progress';
+            var /** string */ eventLabel = this.currentSrc || this.src;
+            var /** number */ eventValue = value;
+
+            /**
+             * The following code snippet shows how to measure events with analytics.js.
+             * @see https://developers.google.com/analytics/devguides/collection/analyticsjs/events
+             */
+            if ('function' == typeof window.ga) {
+              ga('send', {
+                hitType: hitType,
+                eventCategory: eventCategory,
+                eventAction: eventAction,
+                eventLabel: eventLabel,
+                eventValue: eventValue,
+                nonInteraction: true
+              });
+            }
+            
+            /**
+             * The following code snippet shows how to use gtag.js to send Google Analytics Events.
+             * @see https://developers.google.com/analytics/devguides/collection/gtagjs/events
+             */
+            if ('function' == typeof window.gtag) {
+              gtag(hitType, eventAction, {
+                'event_category': eventCategory,
+                'event_label': eventLabel,
+                'event_value': eventValue,
+                'non_interaction': true
+              });
+            }
+          }
+        });
+      }
+    }
+
+    trackDynamicContent && setTimeout(init, 1E3);
+  }
+
+  init();
+})();
+</script>
+
+<div class="content">
+	<section>	
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Hoe werk dit?</h2>
+				<p>IcanRead lees enige teks hardop, maak nie saak of dit in 'n boek of op 'n skerm is, getik of handskrif nie. Die stem wat die teks lees is die mees natuurlik klinkende stem beskikbaar. Jy kan nie die verskil hoor met 'n regte persoon nie.</p>
+				<p>Die toepassing werk op enige selfoon.</p>
+				<p>Die toepassing het twee modusse, statief- en handmodus.</p>
+				<p>Om teks op jou rekenaarskerm te lees is daar Windows- en Mac-toepassings</p>
+			</div>
+			<div class="image rounded">
+				<img src="{{ site.baseurl }}/images/IcanReadScreenshot.jpeg" alt="Wys" />	
+			</div>
+		</div>
+	</section>
+	<section>	
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Die Statiefmodus</h2>
+				<p>Die statiefmodus is vir wanneer jy nog meer wil fokus op leer en die teks verstaan.</p>
+				<div class="checklist-item">
+					<div>✓ </div>
+					<p><b>Plaas die foon in 'n statief</b></p>
+				</div>
+				<div class="checklist-item">
+					<div>✓ </div>
+					<p><b>Die kamera sien jou boek en die teks daarin.</b></p>
+				</div>
+				<div class="checklist-item">
+					<div>✓ </div>
+					<p><b>Wanneer jy wil luister, wys jy na die teks in die boek.</b></p>
+				</div>
+				<div class="checklist-item">
+					<div>✓ </div>
+					<p><b>Die toepassing sal die teks hardop vir jou lees.</b></p>
+				</div>
+				<p>Die toepassing gebruik gevorderde KI om jou vinger te herken en presies te sien waar jy wys. Hierdie modus is perfek vir wanneer jy studeer en nie deur jou foon afgelei wil word nie.</p>
+			</div>
+			<div class="image rounded">
+				<img src="{{ site.baseurl }}/images/tripod.jpg" alt="Statiefmodus" />	
+			</div>
+		</div>
+	</section>
+	<section>	
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Die Handmodus</h2>
+				<p>Handmodus is maklik om mee te begin en is 'n baie vinnige manier om na enige teks te luister. Wys jou foon na die teks, tik en luister.</p>
+			</div>
+			<div class="image rounded">
+				<img src="{{ site.baseurl }}/images/handheld.jpg" alt="Handmodus" />	
+			</div>
+		</div>
+	</section>
+	<section>	
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Die Skermmodus</h2>
+				<p>Wanneer jy IcanRead op jou rekenaar geïnstalleer het, kan jy enige teks op jou skerm lees. Wys die muis na enige teks, druk Ctrl+I en luister. Dit werk in alle ander toepassings soos Outlook, Word, Chrome, Safari ens.</p>
+				<p>Om te installeer, klik <a href="desktop">hier</a>.</p>
+			</div>
+			<div class="image rounded">
+				<img src="{{ site.baseurl }}/images/screen.jpg" alt="Skermmodus" />	
+			</div>
+		</div>
+	</section>
+	
+
+	<section>	
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Watter tale lees dit?</h2>
+				<p>IcanRead ondersteun 'n groot aantal tale:</p>
+				<ul class="lang-list">
+					<li>Arabies</li>
+					<li>Bengaals</li>
+					<li>Tsjeggies</li>
+					<li>Deens</li>
+					<li>Nederlands</li>
+					<li>Engels</li>
+					<li>Filippyns</li>
+					<li>Fins</li>
+					<li>Frans</li>
+					<li>Duits</li>
+					<li>Grieks</li>
+					<li>Gujarati</li>
+					<li>Hindi</li>
+					<li>Hongaars</li>
+					<li>Indonesies</li>
+					<li>Italiaans</li>
+					<li>Japanees</li>
+					<li>Kannada</li>
+					<li>Koreaans</li>
+					<li>Malayalam</li>
+					<li>Mandaryns</li>
+					<li>Noors</li>
+					<li>Pools</li>
+					<li>Portugees</li>
+					<li>Russies</li>
+					<li>Slowaaks</li>
+					<li>Spaans</li>
+					<li>Sweeds</li>
+					<li>Tamil</li>
+					<li>Telugu</li>
+					<li>Thai</li>
+					<li>Turks</li>
+					<li>Oekraïens</li>
+					<li>Viëtnamees</li>
+				  </ul>
+			</div>
+			<div class="image rounded">
+				<img src="{{ site.baseurl }}/images/globe.jpg" alt="Die wêreld"/>	
+			</div>
+		</div>
+	</section>
+	<section>	
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Die storie agter IcanRead</h2>
+				<blockquote>As 'n ouer van 'n dislektiese seun help ek hom baie deur vir hom te lees. Hy raak vinnig moeg van lees en hy sukkel om die onderwerp te verstaan. Maar die waarheid is dat ek nie altyd daar kan wees vir hom nie. Daarom het ek IcanRead ontwikkel. Wanneer my seun sukkel met 'n teks, kan hy die toepassing gebruik. Ek voel trots om hom dieselfde geleenthede te gee om te leer as enigiemand anders.
+				<br><br>Nou is ek opgewonde om hierdie toepassing met die wêreld te deel. Ek wil hê soveel gesinne as moontlik moet hierdie kans hê om die speelveld gelyk te maak.
+				</blockquote>
+				<i>Adam, stigter van IcanRead</i>
+			</div>
+			<div class="image rounded">
+				<img src="{{ site.baseurl }}/images/TheBoys.JPG" alt="Die Seuns" />	
+			</div>
+		</div>
+	</section>
+	<section class="bottom-cta">
+		<h2 class="editable">IcanRead is nou beskikbaar</h2>
+		<p>Jy kan die toepassing 10 dae lank gratis probeer en die vreugde in jou kind se oë sien wanneer hulle besef hoe maklik dit is om te WYS EN LUISTER.</p>
+		<div class="cta button alt"><a href="https://app.icanread.io">Probeer dit nou gratis</a></div>
+	</section>
+</div> 

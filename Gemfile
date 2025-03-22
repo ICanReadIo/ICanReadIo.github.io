@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '4.0.0'
+gem 'webrick'
+gem "public_suffix", "~> 4.0"
+gem "ffi", "~> 1.15"
 
 group :jekyll_plugins do
   gem 'jekyll-archives', '2.1.1'

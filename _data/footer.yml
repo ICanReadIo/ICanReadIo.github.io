@@ -1,4 +1,3 @@
-
 - links:
   - name: Login
     link: https://app.icanread.io
@@ -15,6 +14,9 @@
     new_window: false  
   - name: Svenska
     link: /sv/
+    new_window: false
+  - name: Afrikaans
+    link: /af/
     new_window: false
   - name: Instagram
     link: https://www.Instagram.com/icanreadapp

@@ -1,0 +1,55 @@
+---
+title: IcanRead Pryse
+heading: Sien hoe min jy moet spandeer om die speelveld gelyk te maak
+description: Kies die intekeningstydperk wat by jou behoeftes pas. Hoe langer jy inteken, hoe meer spaar jy.
+canonical_url: 'https://www.icanread.io/af/pricing.html'
+lang: af
+pricing_table:
+  - name: Maand
+    price: R199
+    period: maand
+    description: Jy betaal maandeliks en kan jou intekening op enige tyd kanselleer.
+  - name: 6 maande
+    price: R990
+    period: 6 maande
+    description: Jy betaal vir 6 maande en spaar R204 in vergelyking met die maandelikse prys
+  - name: 1 jaar
+    price: R1749
+    period: jaar  
+    description: Jy kry IcanRead vir 'n volle jaar vir net R1749. Jy spaar R639 in vergelyking met die maandelikse prys.
+faq:
+  - question: Watter tipe betalings aanvaar julle?
+    answer: Kaartbetaling insluitend MasterCard, Visa of American Express. Ons aanvaar ook Google Pay en Apple Pay. Betalings word outomaties aan die begin van 'n nuwe intekeningstydperk gedoen.
+  - question: Kan ek my intekening kanselleer?
+    answer: Ja, jy kan jou intekening op enige tyd kanselleer. Geen vrae gevra nie.
+  - question: Vrae?
+    answer: Kontak ons vir enige verdere vrae by <a href="mailto:info@icanread.io">info@icanread.io</a>.
+---
+
+<div class="Subscribe">
+	{% for plan in page.pricing_table %}
+  <div class="Offer">
+    <div class="OfferName">{{ plan.name }}</div>
+    <div class="OfferPrice">
+      <div class="Price">{{ plan.price }}</div>
+      <div class="Peroid"> / {{ plan.period }}</div>
+    </div>
+    <div class="OfferDescription">{{ plan.description }}</div>
+    <div>
+    </div>
+    <a href="https://app.icanread.io" class="SubscribeButton">Probeer dit gratis</a>
+  </div>
+	{% endfor %}
+</div>
+
+{% if page.faq %}
+	<h2>Prys FAQ</h2>
+	<dl class="faq">
+		{% for item in page.faq %}
+			<div>
+				<p><b>{{ item.question }}</b></p>
+				<p>{{ item.answer }}</p>
+			</div>
+		{% endfor %}
+	</dl>
+{% endif %} 
