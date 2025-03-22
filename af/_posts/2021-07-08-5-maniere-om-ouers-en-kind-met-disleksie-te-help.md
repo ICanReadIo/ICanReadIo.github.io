@@ -5,6 +5,7 @@ categories:
   - simptome
   - versagtings
 author_staff_member: debbie
+lang: af
 published: true
 ---
 Die wêreld het so 'n hoë klem op volmaaktheid geplaas, dat dit geen dimensies van wie ons is ontkom nie. Ouerskap is nie uitgesluit nie. Gevolglik hoop elke ouer dat hul kind op die tyd van geboorte in alle opsigte gesond sal wees. Nie gebore met enige probleme of komplikasies wat hulle deur hul lewe sal beïnvloed nie. As dit nie die geval is nie, voel hulle oorlaai, oorweldig, anders, bang, gefrustreerd en regtig onvolmaak. Maar wat as hierdie probleme/komplikasies net so anders is as die norm? En wat as dit eintlik veerkragtigheid en krag toon wat die meeste 'gewone' mense nie het nie?

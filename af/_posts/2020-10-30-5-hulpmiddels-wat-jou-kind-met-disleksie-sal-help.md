@@ -5,6 +5,7 @@ categories:
   - hulpmiddels
 author_staff_member: adam
 published: true
+lang: af
 permalink: /af/hulpmiddels/5-hulpmiddels-wat-jou-kind-met-disleksie-sal-help.html
 ---
 

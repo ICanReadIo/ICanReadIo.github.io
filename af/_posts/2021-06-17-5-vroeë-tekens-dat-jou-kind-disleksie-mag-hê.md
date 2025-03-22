@@ -4,6 +4,7 @@ title: 5 vroeë tekens dat jou kind disleksie mag hê
 categories:
   - symptoms
 author_staff_member: adam
+lang: af
 published: true
 ---
 Disleksie is 'n leerprobleem wat 'n persoon se vermoë om te lees en akademies goed te vaar kan beïnvloed. Wanneer dit lank onopgemerk bly, kan dit 'n kind se vermoë om uit te blink, hul selfbeeld en hul skoolervaring benadeel. Met behoorlike ondersteuning en hulp kan disleksie egter suksesvol bestuur word. 'n Kind met hierdie probleem kan goed vaar op skool en buite die akademiese veld. Hoe vroeër disleksie opgespoor word, hoe makliker is dit om te ondersteun. Alhoewel dit dikwels nie herken word totdat 'n kind op skool is en begin sukkel nie, is dit moontlik om vroeë tekens van die probleem te sien.
