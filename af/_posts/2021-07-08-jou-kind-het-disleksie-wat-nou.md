@@ -2,7 +2,7 @@
 date: 2021-07-08
 title: Jou Kind het Disleksie. Wat Nou?
 categories:
-  - symptome
+  - simptome
   - versagtings
 author_staff_member: adam
 lang: af
