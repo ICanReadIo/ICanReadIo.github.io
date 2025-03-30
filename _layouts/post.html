@@ -1,6 +1,26 @@
 ---
 layout: page
 ---
+{% if page.categories contains "dyslexia-faq" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "QAPage",
+  "mainEntity": {
+    "@type": "Question",
+    "name": "{{ page.title }}",
+    "text": "{{ page.title }}",
+    "dateCreated": "{{ page.date | date_to_xmlschema }}",
+    "answerCount": 1,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "{{ content | strip_html | truncatewords: 100 }}",
+      "dateCreated": "{{ page.date | date_to_xmlschema }}"
+    }
+  }
+}
+</script>
+{% endif %}
 <div class="blog-post text-container">
 	{% include post-title.html post=page %}
 
@@ -15,49 +35,39 @@ layout: page
 			{% elsif page.lang == "sv" %}
 				{% assign author = site.data.sv.staff_members | where: "name", page.author_staff_member | first %}
 			{% else %}
-				{% assign author = site.staff_members | where: "name", page.author_staff_member | first %}
+				{% assign author = site.data.staff_members | where: "name", page.author_staff_member | first %}
 			{% endif %}
 			<div class="square-image"><img src="{% include relative-src.html src=author.image_path %}" alt="{{ author.name }}"/></div>
 			<p class="blurb">{{ author.blurb }}</p>
 		</div>
 
 		<div class="blog-navigation">
-			{% if page.lang == "af" %}
-				{% assign posts = site.posts | where: "lang", "af" | sort: "date" %}
-				{% for post in posts %}
+			{% if page.categories contains "dyslexia-faq" %}
+				{% assign faq_posts = site.posts | where: "categories", "dyslexia-faq" | sort: "date" | reverse %}
+				{% for post in faq_posts %}
 					{% if post.url == page.url %}
 						{% assign current_index = forloop.index0 %}
 						{% if current_index > 0 %}
 							{% assign prev_index = current_index | minus: 1 %}
-							{% assign prev_post = posts[prev_index] %}
+							{% assign prev_post = faq_posts[prev_index] %}
 							<a class="prev" href="{% include relative-src.html src=prev_post.url %}">&laquo; {{ prev_post.title }}</a>
 						{% endif %}
 						{% assign next_index = current_index | plus: 1 %}
 						{% if next_index < forloop.length %}
-							{% assign next_post = posts[next_index] %}
-							<a class="next" href="{% include relative-src.html src=next_post.url %}">{{ next_post.title }} &raquo;</a>
-						{% endif %}
-					{% endif %}
-				{% endfor %}
-			{% elsif page.lang == "sv" %}
-				{% assign posts = site.posts | where: "lang", "sv" | sort: "date" %}
-				{% for post in posts %}
-					{% if post.url == page.url %}
-						{% assign current_index = forloop.index0 %}
-						{% if current_index > 0 %}
-							{% assign prev_index = current_index | minus: 1 %}
-							{% assign prev_post = posts[prev_index] %}
-							<a class="prev" href="{% include relative-src.html src=prev_post.url %}">&laquo; {{ prev_post.title }}</a>
-						{% endif %}
-						{% assign next_index = current_index | plus: 1 %}
-						{% if next_index < forloop.length %}
-							{% assign next_post = posts[next_index] %}
+							{% assign next_post = faq_posts[next_index] %}
 							<a class="next" href="{% include relative-src.html src=next_post.url %}">{{ next_post.title }} &raquo;</a>
 						{% endif %}
 					{% endif %}
 				{% endfor %}
 			{% else %}
-				{% assign posts = site.posts | where: "lang", "en" | sort: "date" %}
+				{% if page.lang == "af" %}
+					{% assign posts = site.posts | where: "lang", "af" | sort: "date" %}
+				{% elsif page.lang == "sv" %}
+					{% assign posts = site.posts | where: "lang", "sv" | sort: "date" %}
+				{% else %}
+					{% assign posts = site.posts | where: "lang", "en" | sort: "date" %}
+				{% endif %}
+
 				{% for post in posts %}
 					{% if post.url == page.url %}
 						{% assign current_index = forloop.index0 %}

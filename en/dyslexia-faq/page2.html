@@ -1,0 +1,35 @@
+---
+layout: page
+title: "Dyslexia FAQ Page 2"
+category: dyslexia-faq
+page_number: 2
+permalink: /en/dyslexia-faq/page2/
+---
+
+<div class="container">
+  {% assign posts_per_page = 5 %}
+  {% assign offset = posts_per_page | times: page.page_number | minus: posts_per_page %}
+  {% assign filtered_posts = site.posts | where: "categories", "dyslexia-faq" | where: "layout", "post" | sort: "date" | reverse %}
+
+  {% for post in filtered_posts offset:offset limit:posts_per_page %}
+    <div class="faq-item">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </div>
+  {% endfor %}
+
+  <!-- Navigation -->
+  {% assign total_posts = filtered_posts | size %}
+  {% assign total_pages = total_posts | plus: 0.0 | divided_by: posts_per_page | ceil %}
+
+  <nav class="pagination">
+    {% if page.page_number > 1 %}
+      {% assign prev_page = page.page_number | minus:1 %}
+      <a href="{% if prev_page == 1 %}/en/dyslexia-faq/{% else %}/en/dyslexia-faq/page{{ prev_page }}/{% endif %}" class="prev">Previous</a>
+    {% endif %}
+
+    {% if total_posts > posts_per_page and page.page_number < total_pages %}
+      {% assign next_page = page.page_number | plus:1 %}
+      <a href="/en/dyslexia-faq/page{{ next_page }}/" class="next">Next</a>
+    {% endif %}
+  </nav>
+</div>

@@ -1,0 +1,12 @@
+- name: adam
+  url: /staff_members/adam/
+  position: Founder
+  image_path: /images/AdamProfile.jpg
+  blurb: Adam is the founder of IcanRead. He developed the application to help his dyslexic son with reading.
+  lang: en
+- name: debbie
+  url: /staff_members/debbie/
+  position: Writer
+  image_path: /images/debbie.jpg
+  blurb: Debbie is a writer for IcanRead, helping to create content that makes reading more accessible for everyone.
+  lang: en 

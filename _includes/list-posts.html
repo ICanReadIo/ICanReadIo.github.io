@@ -1,4 +1,5 @@
 {% for post in include.posts %}
+	{% unless post.categories contains "dyslexia-faq" %}
 	<li class="blog-post">
 		<h3><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h3>
 		{% include post-title.html post=post %}
@@ -7,4 +8,5 @@
 			<div class="cta button"><a href="{% include relative-src.html src=post.url %}">{% if page.lang == "sv" %}{{site.data.sv.translations.learn_more}}{% elsif page.lang == "af" %}{{site.data.af.translations.learn_more}}{% else %}Learn more{% endif %}</a></div>
 		</div>
 	</li>
+	{% endunless %}
 {% endfor %}
