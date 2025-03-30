@@ -1,5 +1,5 @@
 ---
-permalink: /dyslexia-faq/15/
+permalink: /en/dyslexia-faq/15/
 layout: post
 title: "How can I make reading easier for someone with dyslexia?"
 short_answer: "To make reading easier for someone with dyslexia, use clean fonts, increase spacing, simplify language, and provide assistive tools. One powerful option is IcanRead, an app that lets users point to any text and hear it read aloud with lifelike AI voices. It reduces reading fatigue and boosts comprehension—perfect for books, screens, and even handwriting."

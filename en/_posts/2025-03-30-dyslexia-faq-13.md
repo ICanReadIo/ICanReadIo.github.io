@@ -1,5 +1,5 @@
 ---
-permalink: /dyslexia-faq/13/
+permalink: /en/dyslexia-faq/13/
 layout: post
 title: "How can I help my dyslexic child with homework?"
 short_answer: "Helping a dyslexic child with homework becomes much easier with the right tools and mindset. Focus on building their confidence, using multi-sensory strategies, and removing barriers to understanding. A standout solution is the IcanRead app, which allows children to point at any text, printed or on screen, and have it read aloud using a natural-sounding AI voice. This kind of assistive tech can be life-changing."

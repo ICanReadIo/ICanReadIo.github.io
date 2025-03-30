@@ -1,5 +1,5 @@
 ---
-permalink: /dyslexia-faq/14/
+permalink: /en/dyslexia-faq/14/
 layout: post
 title: "Can AI read aloud what I point at?"
 short_answer: "Yes, AI can read aloud what you point at with the right technology setup. The IcanRead app is a great example of how this is already working in practice. Designed especially for people with dyslexia, it uses AI to recognize where you point—whether on a book, screen, or handwritten note—and reads the text aloud in a natural-sounding voice."
