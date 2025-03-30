@@ -5,19 +5,31 @@ layout: page
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "QAPage",
-  "mainEntity": {
-    "@type": "Question",
-    "name": "{{ page.title }}",
-    "text": "{{ page.title }}",
-    "dateCreated": "{{ page.date | date_to_xmlschema }}",
-    "answerCount": 1,
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "{{ content | strip_html | truncatewords: 100 }}",
-      "dateCreated": "{{ page.date | date_to_xmlschema }}"
-    }
-  }
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "{{ page.title }}",
+      "text": "{{ page.title }}",
+      "dateCreated": "{{ page.date | date_to_xmlschema }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{% if page.short_answer %}{{ page.short_answer }}{% else %}{{ content | strip_html | truncatewords: 200 }}{% endif %}",
+        "dateCreated": "{{ page.date | date_to_xmlschema }}"
+      }
+    }{% if page.alt_questions %}{% for qa in page.alt_questions %},
+    {
+      "@type": "Question",
+      "name": "{{ qa.question }}",
+      "text": "{{ qa.question }}",
+      "dateCreated": "{{ page.date | date_to_xmlschema }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ qa.answer | truncatewords: 200 }}",
+        "dateCreated": "{{ page.date | date_to_xmlschema }}"
+      }
+    }{% endfor %}{% endif %}
+  ]
 }
 </script>
 {% endif %}
@@ -28,6 +40,20 @@ layout: page
 	<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
 	<div class="post-content">
 		{{ content }}
+
+		{% if page.alt_questions %}
+		<div class="alternative-questions">
+			<h2>Related Questions</h2>
+			{% for qa in page.alt_questions %}
+			<div class="alt-qa">
+				<h3>{{ qa.question }}</h3>
+				<div class="alt-answer">
+					{{ qa.answer }}
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		{% endif %}
 
 		<div class="author">
 			{% if page.lang == "af" %}

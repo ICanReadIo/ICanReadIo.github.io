@@ -28,6 +28,26 @@
     color: #666;
     margin-top: 0.5rem;
   }
+
+  .alt-questions {
+    margin-top: 1rem;
+    font-size: 0.9em;
+    color: #666;
+
+    p {
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.25rem;
+    }
+  }
 }
 
 .pagination {
@@ -56,6 +76,32 @@
       background: darken($brand-color, 10%);
       color: #fff;
       text-decoration: none;
+    }
+  }
+}
+
+.alternative-questions {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+
+  h2 {
+    margin-bottom: 2rem;
+    color: #333;
+  }
+
+  .alt-qa {
+    margin-bottom: 2rem;
+
+    h3 {
+      color: #000;
+      font-size: 1.3em;
+      margin-bottom: 1rem;
+    }
+
+    .alt-answer {
+      color: #666;
+      line-height: 1.6;
     }
   }
 } 

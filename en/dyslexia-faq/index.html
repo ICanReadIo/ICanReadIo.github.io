@@ -23,6 +23,16 @@ permalink: /en/dyslexia-faq/
     {% assign post = post_array[1] %}
     <div class="faq-item">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.alt_questions %}
+        <div class="alt-questions">
+          <p>Also asked as:</p>
+          <ul>
+            {% for question in post.alt_questions %}
+              <li>{{ question }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
     </div>
   {% endfor %}
 
