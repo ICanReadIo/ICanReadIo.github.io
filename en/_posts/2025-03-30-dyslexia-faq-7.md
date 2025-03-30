@@ -1,5 +1,5 @@
 ---
-permalink: /dyslexia-faq/7/
+permalink: /en/dyslexia-faq/7/
 layout: post
 title: "Are there specific activities or exercises we could incorporate at home that complement the use of assistive reading technology?"
 date: 2025-03-30

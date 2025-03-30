@@ -1,5 +1,5 @@
 ---
-permalink: /dyslexia-faq/8/
+permalink: /en/dyslexia-faq/8/
 layout: post
 title: "How do I ensure that my child feels comfortable and positive about using assistive devices in social or classroom settings?"
 date: 2025-03-30

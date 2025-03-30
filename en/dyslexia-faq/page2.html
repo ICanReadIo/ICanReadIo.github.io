@@ -9,9 +9,18 @@ permalink: /en/dyslexia-faq/page2/
 <div class="container">
   {% assign posts_per_page = 5 %}
   {% assign offset = posts_per_page | times: page.page_number | minus: posts_per_page %}
-  {% assign filtered_posts = site.posts | where: "categories", "dyslexia-faq" | where: "layout", "post" | sort: "date" | reverse %}
+  
+  {% assign filtered_posts = site.posts | where: "categories", "dyslexia-faq" | where: "layout", "post" %}
+  {% assign numbered_posts = "" | split: "" %}
+  {% for post in filtered_posts %}
+    {% assign faq_number = post.permalink | split: "/" | last | plus: 0 %}
+    {% assign post_with_number = "" | split: "" | push: faq_number | push: post %}
+    {% assign numbered_posts = numbered_posts | push: post_with_number %}
+  {% endfor %}
+  {% assign sorted_posts = numbered_posts | sort %}
 
-  {% for post in filtered_posts offset:offset limit:posts_per_page %}
+  {% for post_array in sorted_posts offset:offset limit:posts_per_page %}
+    {% assign post = post_array[1] %}
     <div class="faq-item">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     </div>
