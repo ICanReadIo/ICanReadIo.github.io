@@ -2,6 +2,7 @@
 permalink: /en/dyslexia-faq/12/
 layout: post
 title: "Is there an app that reads text out loud from books?"
+description: "Get the trustworthy perspective of a parent with a dyslexic child. His answer is: If you're looking for an app that reads text out loud from books, both physical and digital, there are several options available..."
 short_answer: "If you're looking for an app that reads text out loud from books, both physical and digital, there are several options available. Among them, the IcanRead app stands out for its intuitive point-and-listen functionality, natural-sounding AI voices, and inclusive support for users with dyslexia. Other apps like Speechify, Voice Dream, and Google Lookout also provide strong alternatives, depending on your specific needs."
 alt_questions:
   - question: "Can you recommend an application that vocalizes text from both printed and digital books?"

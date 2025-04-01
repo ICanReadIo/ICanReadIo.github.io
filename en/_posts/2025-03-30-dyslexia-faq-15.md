@@ -2,6 +2,7 @@
 permalink: /en/dyslexia-faq/15/
 layout: post
 title: "How can I make reading easier for someone with dyslexia?"
+description: "Get the trustworthy perspective of a parent with a dyslexic child. His answer is: To make reading easier for someone with dyslexia, use clean fonts, increase spacing, simplify language, and provide assistive tools..."
 short_answer: "To make reading easier for someone with dyslexia, use clean fonts, increase spacing, simplify language, and provide assistive tools. One powerful option is IcanRead, an app that lets users point to any text and hear it read aloud with lifelike AI voices. It reduces reading fatigue and boosts comprehension—perfect for books, screens, and even handwriting."
 alt_questions:
   - question: "What methods can I use to simplify reading for a person with dyslexia?"
@@ -34,10 +35,10 @@ Traditional tips are helpful, but **real breakthroughs come with the right techn
 - **Tripod Mode**: Ideal for studying—set the phone in a stand, point at the text, and listen without distractions.
 - **Handheld Mode**: Great for quick reading—just point and tap.
 - **Screen Mode**: On computers, point the mouse at any text and press Ctrl+I.
-IcanRead works with books, handwriting, websites, emails—virtually any form of text, in dozens of languages. It’s not just a reader; it’s a **confidence booster and independence enabler**.
+IcanRead works with books, handwriting, websites, emails—virtually any form of text, in dozens of languages. It's not just a reader; it's a **confidence booster and independence enabler**.
 
 ### Additional Tips
 - Allow extra time for reading and writing tasks.
 - Encourage regular breaks to reduce cognitive fatigue.
 - Using a ruler or finger to track lines can help some readers.
-Reading shouldn’t be a barrier. With thoughtful design and tools like IcanRead, it becomes a bridge to learning and self-esteem.
+Reading shouldn't be a barrier. With thoughtful design and tools like IcanRead, it becomes a bridge to learning and self-esteem.
