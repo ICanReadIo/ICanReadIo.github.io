@@ -12,13 +12,12 @@ disqus_shortname:
 logo: /siteicon.png
 description: A tool for people with dyslexia. POINT AND LISTEN
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Adam founder of IcanRead
+  email: info@icanread.io
 social:
-  name: Hydra Template
+  name: IcanRead App
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://www.icanread.io
 
 # -----
 # Build
