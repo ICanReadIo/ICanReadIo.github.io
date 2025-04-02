@@ -1,5 +1,5 @@
 ---
-permalink: /dyslexia-faq/11/
+permalink: /en/dyslexia-faq/11/
 layout: post
 title: "What is the best reading app for kids with dyslexia?"
 description: "Get the unique perspective of a parent with a dyslexic child. His answer is: The best reading app for kids with dyslexia depends on age, needs, and preferences---but a standout option is IcanRead..."
