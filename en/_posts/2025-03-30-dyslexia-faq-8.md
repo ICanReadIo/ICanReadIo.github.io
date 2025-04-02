@@ -16,6 +16,21 @@ categories: dyslexia-faq
 author_staff_member: adam
 ---
 
+<div class="paraphrases">
+These questions are all answered below:  
+What can I do to help my child feel confident using assistive devices around peers or in class?  
+How can I support my child in feeling at ease when using assistive tools in social or educational settings?  
+How do I help my child feel good about using assistive technology at school or with friends?  
+What steps can I take to make sure my child feels okay using assistive devices in group settings?  
+How can I make it easier for my child to feel comfortable using assistive aids in the classroom or socially?  
+How can I encourage my child to use assistive devices without feeling self-conscious in public or school environments?  
+What can I do to promote a positive attitude in my child toward using assistive devices in social or learning contexts?  
+How do I help my child embrace the use of assistive tools in school and social situations?  
+What strategies can I use to help my child feel supported while using assistive devices with classmates or friends?  
+How can I ensure my child doesn't feel awkward or singled out when using assistive technology at school or in social circles?  
+</div>
+
+
 Helping your child feel confident and positive about using assistive devices in social or classroom settings is about creating a safe emotional space, fostering ownership, and ensuring they feel empowered by their tools---not defined by them. Here are some practical, supportive strategies:
 ### 1. Normalize the Device
 - **Use familiar comparisons**: Just like glasses help with vision, assistive tools like text-to-speech apps help with reading. Tools like IcanRead can be described as smart helpers---everyone benefits from different tools.

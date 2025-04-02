@@ -16,6 +16,21 @@ categories: dyslexia-faq
 author_staff_member: adam
 ---
 
+<div class="paraphrases">
+These questions are all answered below:  
+Is it possible for AI to read out loud what I’m pointing to?  
+Can an AI speak the text I’m indicating?  
+Will AI read aloud the thing I point at?  
+Does AI have the ability to read what I’m pointing at out loud?  
+Can AI voice what I’m pointing toward?  
+If I point at something, can AI read it aloud?  
+Is there a way for AI to vocalize what I point at?  
+Can an AI system read aloud whatever I indicate?  
+Can AI audibly read what I show it by pointing?  
+Can AI read out loud the item I’m gesturing to?  
+</div>
+
+
 Yes, AI can absolutely read aloud what you point at—and with the right tools, it's already changing lives.
 One of the most impactful implementations of this is the **IcanRead app**, which is designed to support people with dyslexia. It uses advanced AI to recognize finger pointing and convert printed or digital text into natural-sounding speech in real time.
 ### How it works:

@@ -15,6 +15,19 @@ categories: dyslexia-faq
 author_staff_member: adam
 permalink: /en/dyslexia-faq/5/
 ---
+<div class="paraphrases">
+These questions are all answered below:  
+Are there any digital tools aimed at supporting kids with dyslexia in their studies?  
+What software is available to assist children with dyslexia in doing better academically?  
+Can you recommend any apps that help dyslexic children succeed in school?  
+Do any educational apps cater specifically to the needs of dyslexic students?  
+Are there programs made to boost school performance for children with dyslexia?  
+What tech solutions are there to aid children with dyslexia in their learning?  
+Are there any applications that help kids with dyslexia perform better in school?  
+Do specialized tools or software exist to support dyslexic children academically?  
+Are there learning platforms tailored to improving academic outcomes for children with dyslexia?  
+Is there software designed to help children with dyslexia improve their schoolwork?  
+</div>
 
 Yes, there are many thoughtfully designed apps and software solutions that support children with dyslexia in improving their academic performance. These tools address reading, writing, spelling, focus, and organization. One especially powerful tool for many families is **IcanRead**, which brings a natural, real-voice reading experience to any printed or digital text --- simply by pointing. Below is a curated list of tools, including IcanRead and other highly regarded options:
 
