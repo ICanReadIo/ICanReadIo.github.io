@@ -6,8 +6,46 @@
   width: 100%;
 }
 .paraphrases {
-  font-size: 5px;
-  color: white;
+  margin: 1rem 0;
+  position: relative;
+  min-height: 2rem;
+  cursor: pointer;
+
+  &::before {
+    content: '+';
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 2;
+  }
+
+  &.expanded::before {
+    transform: rotate(45deg);
+  }
+
+  .paraphrases-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    padding: 1rem 1rem 1rem 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+
+  &.expanded .paraphrases-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
 }
 
 .faq-item {

@@ -41,6 +41,17 @@ layout: page
 	<div class="post-content">
 		{{ content }}
 
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				const paraphrases = document.querySelector('.paraphrases');
+				if (paraphrases) {
+					paraphrases.addEventListener('click', function() {
+						this.classList.toggle('expanded');
+					});
+				}
+			});
+		</script>
+
 		{% if page.alt_questions %}
 		<div class="alternative-questions">
 			<h2>Related Questions</h2>

@@ -17,19 +17,20 @@ author_staff_member: adam
 ---
 
 <div class="paraphrases">
-These questions are all answered below:  
-What strategies can help a person with dyslexia read more easily?  
-How do I support someone with dyslexia to improve their reading experience?  
-What are effective ways to make reading less challenging for someone with dyslexia?  
-How can reading be adapted to suit the needs of someone with dyslexia?  
-What methods can I use to assist a dyslexic person with reading?  
-How do I make reading more accessible for individuals with dyslexia?  
-What can I do to help someone with dyslexia read better?  
-What techniques make reading easier for someone who has dyslexia?  
-How can I modify reading materials for someone with dyslexia?  
-What can be done to simplify reading for someone struggling with dyslexia?  
+  <div class="paraphrases-content">
+    These questions are all answered below:<br/>
+    What strategies can help a person with dyslexia read more easily?<br/>
+    How do I support someone with dyslexia to improve their reading experience?  <br/>
+    What are effective ways to make reading less challenging for someone with dyslexia?  <br/>
+    How can reading be adapted to suit the needs of someone with dyslexia?  <br/>
+    What methods can I use to assist a dyslexic person with reading? <br/> 
+    How do I make reading more accessible for individuals with dyslexia?<br/>  
+    What can I do to help someone with dyslexia read better?  <br/>
+    What techniques make reading easier for someone who has dyslexia? <br/>
+    How can I modify reading materials for someone with dyslexia? <br/>
+    What can be done to simplify reading for someone struggling with dyslexia?  
+  </div>
 </div>
-
 
 Supporting someone with dyslexia can open up new learning opportunities and reduce daily struggles with reading. Here are some of the most effective ways to help:
 

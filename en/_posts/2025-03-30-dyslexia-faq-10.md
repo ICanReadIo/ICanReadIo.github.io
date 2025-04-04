@@ -17,17 +17,19 @@ author_staff_member: adam
 ---
 
 <div class="paraphrases">
-These questions are all answered below:  
-What are effective ways to incorporate assistive tech into my university routine while maintaining independence?  
-How do I make the most of assistive technology in my studies without relying too much on others?  
-What’s the best approach to use assistive tools at university without becoming dependent on others?  
-How can I embed assistive technology into my academic life in a way that supports self-sufficiency?  
-How might I use assistive tech at university efficiently and still feel in control of my own learning?  
-In what ways can I adopt assistive technology for my coursework without compromising my independence?  
-How can assistive tech be integrated into my university habits without making me feel reliant on people?  
-What’s a good strategy for using assistive technology in higher education without losing autonomy?  
-How can I use assistive technology to support my studies without depending on others for help?  
+  <div class="paraphrases-content">
+These questions are all answered below:  <br/>
+What are effective ways to incorporate assistive tech into my university routine while maintaining independence?  <br/>
+How do I make the most of assistive technology in my studies without relying too much on others?  <br/>
+What’s the best approach to use assistive tools at university without becoming dependent on others?  <br/>
+How can I embed assistive technology into my academic life in a way that supports self-sufficiency?  <br/>
+How might I use assistive tech at university efficiently and still feel in control of my own learning?  <br/>
+In what ways can I adopt assistive technology for my coursework without compromising my independence?  <br/>
+How can assistive tech be integrated into my university habits without making me feel reliant on people?  <br/>
+What’s a good strategy for using assistive technology in higher education without losing autonomy? <br/> 
+How can I use assistive technology to support my studies without depending on others for help? <br/> 
 How can I bring assistive tools into my university workflow while staying self-reliant?  
+</div>
 </div>
 
 

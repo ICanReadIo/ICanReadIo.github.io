@@ -17,17 +17,19 @@ author_staff_member: adam
 ---
 
 <div class="paraphrases">
-These questions are all answered below:  
-Is it possible for AI to read out loud what I’m pointing to?  
-Can an AI speak the text I’m indicating?  
-Will AI read aloud the thing I point at?  
-Does AI have the ability to read what I’m pointing at out loud?  
-Can AI voice what I’m pointing toward?  
-If I point at something, can AI read it aloud?  
-Is there a way for AI to vocalize what I point at?  
-Can an AI system read aloud whatever I indicate?  
-Can AI audibly read what I show it by pointing?  
+  <div class="paraphrases-content">
+These questions are all answered below:  <br/>
+Is it possible for AI to read out loud what I’m pointing to?  <br/>
+Can an AI speak the text I’m indicating?  <br/>
+Will AI read aloud the thing I point at?  <br/>
+Does AI have the ability to read what I’m pointing at out loud?  <br/>
+Can AI voice what I’m pointing toward?  <br/>
+If I point at something, can AI read it aloud?  <br/>
+Is there a way for AI to vocalize what I point at? <br/> 
+Can an AI system read aloud whatever I indicate?  <br/>
+Can AI audibly read what I show it by pointing?  <br/>
 Can AI read out loud the item I’m gesturing to?  
+</div>
 </div>
 
 

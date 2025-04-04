@@ -17,17 +17,19 @@ author_staff_member: adam
 ---
 
 <div class="paraphrases">
-These questions are all answered below:  
-Which reading app works best for children with dyslexia?  
-Can you recommend a top reading app for kids who have dyslexia?  
-What's the most effective reading app for dyslexic children?  
-What’s a good app for helping kids with dyslexia learn to read?  
-Which app is best suited for young readers with dyslexia?  
-What is the ideal reading app for a dyslexic child?  
-Is there a reading app that's especially good for kids with dyslexia?  
-What app would you suggest for children struggling with dyslexia?  
-Which digital reading tool is best for kids who are dyslexic?  
+  <div class="paraphrases-content">
+These questions are all answered below:  <br/>
+Which reading app works best for children with dyslexia?  <br/>
+Can you recommend a top reading app for kids who have dyslexia?  <br/>
+What's the most effective reading app for dyslexic children?  <br/>
+What’s a good app for helping kids with dyslexia learn to read? <br/> 
+Which app is best suited for young readers with dyslexia?  <br/>
+What is the ideal reading app for a dyslexic child?  <br/>
+Is there a reading app that's especially good for kids with dyslexia?  <br/>
+What app would you suggest for children struggling with dyslexia?  <br/>
+Which digital reading tool is best for kids who are dyslexic?  <br/>
 What’s the best reading app to support kids with dyslexia?  
+</div>
 </div>
 
 

@@ -17,17 +17,19 @@ author_staff_member: adam
 ---
 
 <div class="paraphrases">
-These questions are all answered below:  
-What home activities can we add that go well with assistive reading tools?  
-Are there any at-home exercises that work well alongside assistive reading technology?  
-Can we include any specific routines at home to support the use of assistive reading devices?  
-What kinds of exercises could we do at home to enhance the effects of assistive reading technology?  
-Are there helpful at-home practices that pair well with using assistive reading tools?  
-Could we implement any home-based activities to complement assistive reading aids?  
-What strategies at home can reinforce the benefits of assistive reading technology?  
-Are there home exercises we can try that support the use of reading assistive tech?  
-What additional things can we do at home to boost the impact of assistive reading devices?  
+  <div class="paraphrases-content">
+These questions are all answered below:  <br/>
+What home activities can we add that go well with assistive reading tools?  <br/>
+Are there any at-home exercises that work well alongside assistive reading technology?  <br/>
+Can we include any specific routines at home to support the use of assistive reading devices?  <br/>
+What kinds of exercises could we do at home to enhance the effects of assistive reading technology?  <br/>
+Are there helpful at-home practices that pair well with using assistive reading tools?  <br/>
+Could we implement any home-based activities to complement assistive reading aids?  <br/>
+What strategies at home can reinforce the benefits of assistive reading technology?  <br/>
+Are there home exercises we can try that support the use of reading assistive tech?  <br/>
+What additional things can we do at home to boost the impact of assistive reading devices? <br/> 
 Can we combine assistive reading technology with any effective at-home learning activities?  
+</div>
 </div>
 
 
