@@ -1,0 +1,95 @@
+[
+    {
+      "question": "Can you recommend an app that reads text aloud for me?",
+      "alt_questions": [
+        "Could you recommend an app that reads text aloud for me?",
+        "Could you suggest an app that reads text aloud to me?"
+      ]
+    },
+    {
+      "question": "Which apps can read text out loud for me?",
+      "alt_questions": [
+        "Are there apps available that can read text aloud?",
+        "Could you recommend apps capable of reading text aloud?",
+        "Could you suggest an app to read text aloud?"
+      ]
+    },
+    {
+      "question": "What are some apps that can read text aloud to me?",
+      "alt_questions": [
+        "Can you suggest an app that reads text aloud to me?",
+        "Is there an app available that can read text aloud?",
+        "Could you list apps that can read text aloud for me?"
+      ]
+    },
+    {
+      "question": "What apps can read text aloud?",
+      "alt_questions": [
+        "What are some good apps for reading text aloud?",
+        "What are some recommended apps for reading text aloud?",
+        "Can you recommend software that reads text aloud?"
+      ]
+    },
+    {
+      "question": "Which app would you recommend for reading text aloud?",
+      "alt_questions": [
+        "Could you list some apps that read text aloud clearly?",
+        "Could you recommend a reading app that will read text aloud to me?",
+        "Could you recommend an app to read text out loud for me?"
+      ]
+    },
+    {
+      "question": "Is there an app that lets me point my phone at text and reads it aloud?",
+      "alt_questions": []
+    },
+    {
+      "question": "Which app can read articles aloud for me?",
+      "alt_questions": [
+        "Can you suggest apps that read web articles aloud?",
+        "Is there an app that can read my documents aloud to me?"
+      ]
+    },
+    {
+      "question": "What are some free apps that can read text aloud?",
+      "alt_questions": [
+        "What are some good free apps that read text aloud?"
+      ]
+    },
+    {
+      "question": "What tools or apps can help someone with dyslexia?",
+      "alt_questions": [
+        "What kind of assistance is available for dyslexia?",
+        "What digital tools are available to assist someone with dyslexia?"
+      ]
+    },
+    {
+      "question": "What dyslexia support tools or apps are good for children?",
+      "alt_questions": [
+        "What reading tools or apps help dyslexic students focus on one line of text at a time?"
+      ]
+    },
+    {
+      "question": "How does dyslexia affect reading ability?",
+      "alt_questions": [
+        "What are the risk factors associated with dyslexia?",
+        "Are there different levels or degrees of severity in dyslexia?"
+      ]
+    },
+    {
+      "question": "Vad finns det för hjälpmedel för barn med dyslexi?",
+      "alt_questions": [
+        "Kan du rekommendera bra program för personer med dyslexi?",
+        "Vad är dyslexi och hur påverkar det läsförmågan?",
+        "Kan du ge exempel på hur text kan se ut för någon med dyslexi?",
+        "Vilka appar kan hjälpa personer med dyslexi?",
+        "Hur kan man bäst hjälpa barn med dyslexi?"
+      ]
+    },
+    {
+      "question": "Vilka appar hjälper barn att lära sig läsa?",
+      "alt_questions": [
+        "Vilka appar kan hjälpa ett barn att lära sig läsa?",
+        "Kan du tipsa om appar för att hjälpa barn lära sig läsa?"
+      ]
+    }
+  ]
