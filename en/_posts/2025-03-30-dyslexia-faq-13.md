@@ -29,6 +29,22 @@ What’s the best way to support my dyslexic child during homework time?  <br/>
 How can I provide effective homework help for my dyslexic child?  <br/>
 How can I be more helpful when my child with dyslexia is doing homework?  <br/>
 What are some effective ways to help my dyslexic child manage their homework? <br/> 
+What are the tips for helping a dyslexic child with homework in {{ site.time | date: "%Y" }}?<br/>
+What are the best tips for helping a dyslexic child with homework in {{ site.time | date: "%Y" }}?<br/>
+How can I support a dyslexic child with homework in {{ site.time | date: "%Y" }}?<br/>
+What are the ways to support a dyslexic child with homework in {{ site.time | date: "%Y" }}?<br/>
+How can I help a child with dyslexia with homework in {{ site.time | date: "%Y" }}?<br/>
+How can I assist a child with dyslexia with homework in {{ site.time | date: "%Y" }}?<br/>
+What are the best homework tips for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+How can I support a child with dyslexia in doing homework?<br/>
+What are the strategies to help a dyslexic child with homework in {{ site.time | date: "%Y" }}?<br/>
+How can I support a dyslexic child during homework?<br/>
+What are the best strategies for supporting a dyslexic child during homework?<br/>
+What are the homework help strategies for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
+What is the best homework help for dyslexic children?<br/>
+What are the effective homework help strategies for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
+How can I help a child with dyslexia do homework?<br/>
+What are the effective strategies to help dyslexic children with homework in {{ site.time | date: "%Y" }}?<br/>
 </div>
 </div>
 

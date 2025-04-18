@@ -28,7 +28,17 @@ What is the ideal reading app for a dyslexic child?  <br/>
 Is there a reading app that's especially good for kids with dyslexia?  <br/>
 What app would you suggest for children struggling with dyslexia?  <br/>
 Which digital reading tool is best for kids who are dyslexic?  <br/>
-What’s the best reading app to support kids with dyslexia?  
+What’s the best reading app to support kids with dyslexia?  <br/>
+What is the best reading app for kids with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What are the best reading apps for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What is the most effective reading app for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for kids with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for kids with dyslexia to learn reading in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for young readers with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What are the best reading apps for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What are the best digital reading tools for dyslexic kids in {{ site.time | date: "%Y" }}?<br/>
+What is the best digital reading tool for kids with dyslexia in {{ site.time | date: "%Y" }}?<br/>
 </div>
 </div>
 

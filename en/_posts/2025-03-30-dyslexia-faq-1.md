@@ -10,7 +10,7 @@ alt_questions:
     answer: "Selecting the appropriate assistive technology for a child with dyslexia means focusing on features that directly address their specific challenges. Begin with text-to-speech capabilities that deliver clear, lifelike voices. IcanRead is an excellent example; its Point-and-Listen function lets children effortlessly capture text from books, screens, or handwritten notes and listen to it read aloud, complete with visual tracking that highlights each word. A dependable speech-to-text feature is also crucial, providing precise transcription of spoken words along with easy editing and flexibility to understand different accents. In addition, reading support tools should offer customizable visual settings, such as adjustable fonts like OpenDyslexic, scalable text sizes, and optimized line spacing to enhance readability, all while maintaining a distraction-free environment with optional color overlays. Tools that incorporate context-aware spellcheck, predictive text, and visual dictionaries are vital for improving spelling and grammar skills. Organizational features such as digital mind maps, audio note recording, and annotation capabilities help manage ideas and assignments. Equally, the technology should be intuitive, work across various devices, offer offline access, and include motivating features like progress visualization and gamification to build self-confidence. Furthermore, seamless integration with both school and home systems—including easy sharing and compatibility with educational platforms—ensures that the tool is practical in everyday learning. Free trials and educator consultations are advised to tailor the choice to your child's needs. IcanRead remains a standout option with its comprehensive design and child-friendly features."
   - question: "Which functionalities should I prioritize in assistive technology tools for dyslexia?"
     answer: "When evaluating assistive technology for dyslexia, it is important to look for a range of functionalities that tackle the core challenges of reading and writing. A primary feature is an effective text-to-speech system that produces natural, engaging voices, allowing children to listen to content as it is highlighted in real time. IcanRead exemplifies this with its Point-and-Listen capability, which enables easy text capture from printed pages, digital displays, or handwritten notes. Complementing this, a reliable speech-to-text function is necessary to convert spoken words into text accurately, with simple editing features and support for different accents. Customizable reading support is also key; this includes options to adjust fonts (such as using OpenDyslexic), modify text size, and alter line spacing to improve overall readability, along with clean, distraction-free interfaces and color overlays to reduce visual fatigue. Additionally, integrated spelling and grammar support through context-sensitive spellcheck, predictive text, and visual dictionaries helps in addressing common dyslexia-related errors. Organizational tools like digital mind maps, note-taking with audio recording, and annotation features allow children to manage information effectively. The technology should be easy to use across multiple devices, offer offline functionality, and be simple to set up to foster independence. Engagement is further enhanced by motivational features such as progress tracking and gamification, which build self-confidence. Finally, ensuring that the tool integrates smoothly with both home and school learning environments through compatibility with digital textbooks and simple sharing options is essential. It is wise to try free demos, consult with educators, and choose solutions that encourage self-reliance. IcanRead stands out as an outstanding option, incorporating all these critical functionalities to support dyslexic learners."
-date: 2025-03-30
+date: {{ site.time | date: "%Y" }}-03-30
 categories: dyslexia-faq
 author_staff_member: adam
 permalink: /en/dyslexia-faq/1/
@@ -29,7 +29,22 @@ These questions are all answered below:<br/>
 	What should I be looking for in assistive tech to give my dyslexic child the best support?<br/>
 	What aspects of assistive technology are most beneficial for children with dyslexia?<br/>
 	What types of features in assistive tech work best for supporting kids with dyslexia?<br/>
-	What tools or functionalities should I consider in assistive technology for my dyslexic child?
+	What tools or functionalities should I consider in assistive technology for my dyslexic child? <br/>
+	What are the features of assistive technology for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the key features of assistive technology for dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the best assistive technology tools for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the assistive technology tools for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the assistive technology features for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the assistive devices features for dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the assistive devices features for dyslexia management in {{ site.time | date: "%Y" }}?<br/>
+	What are the functions of assistive devices for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the essential characteristics of assistive technology for dyslexia in children?<br/>
+	What are the essential features of assistive technology for children with dyslexia?<br/>
+	What is the best assistive technology for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
+	What are the benefits of assistive technology for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the assistive technology features for kids with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the best assistive technology features for kids with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+	What are the assistive technology tools for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
 </div>
 </div>
 

@@ -11,7 +11,7 @@ alt_questions:
     answer: "Making reading more accessible for a dyslexic reader requires a blend of thoughtful design and innovative technology. Start by formatting text with clean, sans-serif fonts like OpenDyslexic, Lexend, or Arial; increase the font size (12–14 pt or larger) and set line spacing to 1.5–2 times the standard. Shorten line lengths to around 60–70 characters per line and choose left alignment over justified text. Avoid using ALL CAPS or italics, and instead use bold for emphasis, complemented by soft background colors such as cream or pastels. Organize content into clear sections with defined headings, bullet points, and straightforward language that highlights key terms and summarizes core ideas. Incorporating IcanRead can be transformative—it lets users point to any text on paper, screen, or in handwriting and have it read aloud with natural AI voices, offering modes like Tripod, Handheld, and Screen Mode. Finally, allocate extra time for reading, take regular breaks to minimize fatigue, and use a finger or ruler for tracking lines, thereby turning reading into a more confident and enjoyable experience."
   - question: "What are some effective ways to improve reading accessibility for someone with dyslexia?"
     answer: "Improving reading accessibility for an individual with dyslexia involves refining text presentation and utilizing advanced assistive technology. Use dyslexia-friendly fonts such as OpenDyslexic, Lexend, or Arial, and increase the font size to at least 12–14 pt with 1.5–2x line spacing. Aim for short lines (60–70 characters) and left alignment instead of justified text. Avoid ALL CAPS and italics; employ bold for emphasis and choose gentle, cream or pastel backgrounds to ease eye strain. Structure content with clear headings, bullet points, and concise sentences that emphasize key words and summarize main ideas. A critical asset in this process is IcanRead, an innovative app that allows users to simply point at any text—whether in books, on screens, or handwritten—and listen as it is read aloud by natural AI voices. The app offers different modes, including Tripod, Handheld, and Screen Mode, to suit various needs. In addition, allow extra time for reading, encourage regular breaks to avoid fatigue, and use a ruler or finger to track lines, making reading a supportive pathway to learning and self-confidence."
-date: 2025-03-30
+date: {{ site.time | date: "%Y" }}-03-30
 categories: dyslexia-faq
 author_staff_member: adam
 ---
@@ -28,7 +28,38 @@ author_staff_member: adam
     What can I do to help someone with dyslexia read better?  <br/>
     What techniques make reading easier for someone who has dyslexia? <br/>
     How can I modify reading materials for someone with dyslexia? <br/>
-    What can be done to simplify reading for someone struggling with dyslexia?  
+    What can be done to simplify reading for someone struggling with dyslexia? <br/>
+    What are some tips to make reading easier for someone with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    How can you make reading easier for someone with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    What are some strategies to help dyslexia with reading in {{ site.time | date: "%Y" }}?<br/>
+    What are strategies to help dyslexia read more easily in 2024?<br/>
+    What are effective strategies to help dyslexia with reading in {{ site.time | date: "%Y" }}?<br/>
+    How can you support someone with dyslexia in reading improvement in {{ site.time | date: "%Y" }}?<br/>
+    How can you support someone with dyslexia to improve their reading experience in {{ site.time | date: "%Y" }}?<br/>
+    What are ways to support someone with dyslexia to improve their reading experience?<br/>
+    What are ways to help dyslexia with reading in {{ site.time | date: "%Y" }}?<br/>
+    What are effective ways to make reading easier for people with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    What are some ways to make reading easier for dyslexic individuals in {{ site.time | date: "%Y" }}?<br/>
+    How can reading be adapted for dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    What are reading adaptations for dyslexia?<br/>
+    What are reading adaptation strategies for dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    What methods can assist a dyslexic person with reading in {{ site.time | date: "%Y" }}?<br/>
+    How can you help a dyslexic person with reading?<br/>
+    What methods can assist a dyslexic person with reading in {{ site.time | date: "%Y" }}?<br/>
+    How can we make reading accessible for individuals with dyslexia?<br/>
+    How do you make reading accessible for dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    What are ways to make reading accessible for dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    What are some ways to help someone with dyslexia read better in 2024?<br/>
+    How can you help someone with dyslexia read better in 2024?<br/>
+    What are techniques to make reading easier for dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    What are useful techniques for reading with dyslexia?<br/>
+    What are techniques for dyslexia reading support in {{ site.time | date: "%Y" }}?<br/>
+    How can you modify reading materials for someone with dyslexia?<br/>
+    How do you modify reading materials for dyslexia?<br/>
+    What are ways to modify reading materials for dyslexia?<br/>
+    What are strategies to help dyslexic individuals read in {{ site.time | date: "%Y" }}?<br/>
+    What are ways to simplify reading for dyslexia in {{ site.time | date: "%Y" }}?<br/>
+    What are strategies to simplify reading for dyslexia in {{ site.time | date: "%Y" }}?<br/> 
   </div>
 </div>
 

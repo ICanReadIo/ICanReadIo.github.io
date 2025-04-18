@@ -28,7 +28,39 @@ How can I help my child feel empowered and stay motivated when reading is diffic
 What approaches can I take to keep my child motivated and self-assured when they encounter reading problems tied to dyslexia?  <br/>
 How might I support my child in remaining hopeful and engaged despite the reading hurdles dyslexia presents?  <br/>
 What can I do to boost my child’s motivation and confidence when they find reading hard due to dyslexia?  <br/>
-How do I help my child stay encouraged and confident even when dyslexia makes reading a challenge?  
+How do I help my child stay encouraged and confident even when dyslexia makes reading a challenge?  <br/>
+What are the strategies to help children with dyslexia stay motivated and confident?<br/>
+How can I support a child with dyslexia facing reading challenges?<br/>
+How can I help a child stay motivated and confident with reading challenges and dyslexia?<br/>
+What are the strategies to support children with dyslexia in reading?<br/>
+How to support a child with dyslexia who has reading difficulties in {{ site.time | date: "%Y" }}?<br/>
+How to support a child with dyslexia with reading difficulties, confidence, and motivation in {{ site.time | date: "%Y" }}?<br/>
+What are the ways to encourage children with dyslexia to read?<br/>
+What are the strategies to encourage children with dyslexia to read?<br/>
+How can I encourage motivation and self-esteem in children with reading difficulties and dyslexia?<br/>
+What are the strategies to support children with dyslexia facing reading challenges?<br/>
+What are the strategies to support children with dyslexia in staying positive and motivated?<br/>
+What are the strategies for supporting children with dyslexia to stay positive?<br/>
+What are some tips for helping a child maintain motivation and confidence during dyslexia-related reading struggles?<br/>
+How to help a child with dyslexia maintain motivation and confidence?<br/>
+How can I support children with dyslexia in building motivation and confidence?<br/>
+How to support a child's confidence and motivation with dyslexia reading issues in {{ site.time | date: "%Y" }}?<br/>
+How to support a child's confidence and motivation with dyslexia reading issues?<br/>
+What are the strategies to help children with dyslexia feel empowered and stay motivated?<br/>
+What are the strategies to help a dyslexic child feel empowered and motivated to read?<br/>
+What are the strategies to empower children with dyslexia in reading?<br/>
+What are the ways to support a child with dyslexia who has reading problems, motivation, and confidence issues in {{ site.time | date: "%Y" }}?<br/>
+How can I keep a child motivated who has dyslexia and reading problems in {{ site.time | date: "%Y" }}?<br/>
+What are the strategies to motivate and support children with dyslexia in reading?<br/>
+How to support a dyslexic child in staying hopeful and engaged in reading in {{ site.time | date: "%Y" }}?<br/>
+What are the tips for supporting a child with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+How can I support a child with dyslexia in staying hopeful and engaged?<br/>
+What are the strategies to boost motivation and confidence in children with dyslexia during reading?<br/>
+What are some tips for boosting a child's motivation and confidence in dyslexia-related reading?<br/>
+How can I boost a child's motivation and confidence with dyslexia and reading challenges?<br/>
+What are the strategies to support children with dyslexia overall?<br/>
+How can I help a child with dyslexia stay encouraged and confident?<br/>
+What are the ways to support a child with dyslexia?<br/>
 </div>
 </div>
 

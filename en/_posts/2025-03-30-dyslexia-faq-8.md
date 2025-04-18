@@ -28,7 +28,31 @@ How can I encourage my child to use assistive devices without feeling self-consc
 What can I do to promote a positive attitude in my child toward using assistive devices in social or learning contexts?  <br/>
 How do I help my child embrace the use of assistive tools in school and social situations?  <br/>
 What strategies can I use to help my child feel supported while using assistive devices with classmates or friends?  <br/>
-How can I ensure my child doesn't feel awkward or singled out when using assistive technology at school or in social circles?  
+How can I ensure my child doesn't feel awkward or singled out when using assistive technology at school or in social circles?  <br/>
+How can we help children feel comfortable using assistive devices in social classroom settings?<br/>
+How can we help children feel comfortable with assistive devices in social or classroom settings?<br/>
+What are strategies for kids to feel comfortable using assistive devices in social classroom settings?<br/>
+How can we help a child feel confident using assistive devices in class?<br/>
+How do you help a child feel confident using assistive devices in school?<br/>
+How can we support a child to ease into using assistive tools in social and educational settings?<br/>
+What are ways of supporting a child using assistive tools in social educational settings?<br/>
+How can we help a child feel comfortable using assistive technology at school?<br/>
+What are effective ways to help a child feel confident using assistive technology?<br/>
+How do you support a child using assistive devices in group settings?<br/>
+What are some tips for helping children use assistive devices in group settings?<br/>
+How can you help a child feel comfortable using assistive aids in the classroom or socially?<br/>
+What are ways to help children feel comfortable using assistive aids in the classroom?<br/>
+How can we help children feel comfortable using assistive aids at school and in social situations?<br/>
+How can we encourage a child to use assistive devices without self-consciousness in public or school?<br/>
+How do you encourage children to use assistive devices without feeling self-conscious?<br/>
+How can we encourage a positive attitude in children towards assistive devices?<br/>
+What are ways of promoting a positive attitude in children using assistive devices?<br/>
+How do you promote a positive attitude in children using assistive devices?<br/>
+How can we help a child embrace assistive tools in school and social situations?<br/>
+What are strategies to support children using assistive devices with friends?<br/>
+What are strategies for supporting children using assistive devices with peers in {{ site.time | date: "%Y" }}?<br/>
+What are ways to help children feel comfortable using assistive technology in school?<br/>
+How can we help a child not feel awkward using assistive technology at school?<br/>
 </div>
 </div>
 

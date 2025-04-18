@@ -28,7 +28,26 @@ Could we implement any home-based activities to complement assistive reading aid
 What strategies at home can reinforce the benefits of assistive reading technology?  <br/>
 Are there home exercises we can try that support the use of reading assistive tech?  <br/>
 What additional things can we do at home to boost the impact of assistive reading devices? <br/> 
-Can we combine assistive reading technology with any effective at-home learning activities?  
+Can we combine assistive reading technology with any effective at-home learning activities?  <br/>
+What are activities to complement assistive reading technology at home?<br/>
+What are activities and exercises to complement assistive reading technology?<br/>
+What are home activities with assistive reading tools in {{ site.time | date: "%Y" }}?<br/>
+What are at-home exercises for assistive reading technology users?<br/>
+What are at-home exercises with assistive reading technology in {{ site.time | date: "%Y" }}?<br/>
+What are home routines to support the use of assistive reading devices?<br/>
+What are home routines to support assistive reading devices in {{ site.time | date: "%Y" }}?<br/>
+What are exercises to enhance the effectiveness of assistive reading technology?<br/>
+What are at-home practices to complement assistive reading tools?<br/>
+What are at-home practices for using assistive reading tools?<br/>
+What are home-based activities to complement assistive reading aids?<br/>
+What are strategies to reinforce assistive reading technology at home?<br/>
+What are strategies to reinforce the benefits of assistive reading technology at home?<br/>
+What are home exercises to support reading assistive technology?<br/>
+What are home exercises to support the use of reading assistive technology?<br/>
+What are additional ways to enhance the effectiveness of assistive reading devices at home in {{ site.time | date: "%Y" }}?<br/>
+How can you enhance the effectiveness of assistive reading devices at home?<br/>
+How can you boost the effectiveness of assistive reading devices at home?<br/>
+What are assistive reading technology activities for at-home learning in {{ site.time | date: "%Y" }}?<br/>
 </div>
 </div>
 

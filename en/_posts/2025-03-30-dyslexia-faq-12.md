@@ -28,7 +28,27 @@ Are there apps that can read printed book text aloud?  <br/>
 What app can I use to listen to books being read?  <br/>
 Is there an app that can speak the text in books?  <br/>
 Can I get an app to read books out loud to me?  <br/>
-Is there a tool that turns book text into speech?  
+Is there a tool that turns book text into speech?  <br/>
+What is the best app that reads text out loud from books in {{ site.time | date: "%Y" }}?<br/>
+What is an app to read text out loud from books in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for reading books aloud in {{ site.time | date: "%Y" }}?<br/>
+Is there a mobile app that can narrate text from books in {{ site.time | date: "%Y" }}?<br/>
+Which mobile app narrates text from books in {{ site.time | date: "%Y" }}?<br/>
+What are the apps that read books out loud in {{ site.time | date: "%Y" }}?<br/>
+Which apps can read book text out loud in {{ site.time | date: "%Y" }}?<br/>
+What is the app that reads written content from books in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for reading text from books in {{ site.time | date: "%Y" }}?<br/>
+What is the software that vocalizes book text in {{ site.time | date: "%Y" }}?<br/>
+Which apps can read printed book text aloud in {{ site.time | date: "%Y" }}?<br/>
+Are there apps that can read printed book text aloud in {{ site.time | date: "%Y" }}?<br/>
+What are the best audiobook apps in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for listening to audiobooks in {{ site.time | date: "%Y" }}?<br/>
+What is an app with text to speech that can read books in {{ site.time | date: "%Y" }}?<br/>
+Which app can read books aloud in {{ site.time | date: "%Y" }}?<br/>
+Is there an app to read books aloud in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for reading books aloud in {{ site.time | date: "%Y" }}?<br/>
+What is the best book text to speech tool in {{ site.time | date: "%Y" }}?<br/>
+What are the best text to speech tools for books in {{ site.time | date: "%Y" }}?<br/>
 </div>
 </div>
 

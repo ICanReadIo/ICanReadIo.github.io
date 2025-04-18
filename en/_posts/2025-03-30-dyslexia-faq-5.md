@@ -27,7 +27,20 @@ What tech solutions are there to aid children with dyslexia in their learning?  
 Are there any applications that help kids with dyslexia perform better in school?<br/>  
 Do specialized tools or software exist to support dyslexic children academically?<br/>  
 Are there learning platforms tailored to improving academic outcomes for children with dyslexia? <br/> 
-Is there software designed to help children with dyslexia improve their schoolwork?  
+Is there software designed to help children with dyslexia improve their schoolwork? <br/>
+What are the apps and software solutions for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What are the best apps for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
+What are the best educational apps for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
+What are the apps for dyslexic children aimed at academic improvement in {{ site.time | date: "%Y" }}?<br/>
+What are the digital tools available for kids with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What is the most effective software for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What are the educational apps for dyslexic students in {{ site.time | date: "%Y" }}?<br/>
+What are the programs to boost school performance for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What are the tech solutions for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What are the applications for kids with dyslexia in {{ site.time | date: "%Y" }}?<br/>
+What specialized tools and software support dyslexic children academically in {{ site.time | date: "%Y" }}?<br/>
+What are the software tools designed for dyslexic children in {{ site.time | date: "%Y" }}?<br/>
+What are the learning platforms for children with dyslexia in {{ site.time | date: "%Y" }}?<br/>
 </div>
 </div>
 
