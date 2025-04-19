@@ -14,9 +14,8 @@ jobs:
       - name: Submit URLs to IndexNow
         run: |
           echo "Gathering URLs from sitemap..."
-          URLS=$(curl -s https://www.icanread.io/sitemap.xml | grep -o 'https://[^<]*' | sed 's/"//g')
+          URLS=$(curl -s https://www.icanread.io/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//')
           
-          # Create JSON payload
           echo "Creating JSON payload..."
           JSON_PAYLOAD=$(cat << EOF
           {
@@ -28,7 +27,15 @@ jobs:
           )
           
           echo "Submitting URLs to IndexNow..."
-          curl -X POST "http://api.indexnow.org/IndexNow" \
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/IndexNow" \
             -H "Content-Type: application/json; charset=utf-8" \
-            -H "Host: api.indexnow.org" \
-            -d "$JSON_PAYLOAD"
+            --retry 3 \
+            -d "$JSON_PAYLOAD")
+          
+          if [ "$HTTP_STATUS" = "200" ]; then
+            echo "Successfully submitted URLs to IndexNow"
+          else
+            echo "Error submitting URLs to IndexNow. Status code: $HTTP_STATUS"
+            exit 1
+          fi
