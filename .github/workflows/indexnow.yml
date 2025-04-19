@@ -13,11 +13,21 @@ jobs:
     steps:
       - name: Submit URLs to IndexNow
         run: |
-          echo "Submitting URLs to IndexNow..."
+          echo "Gathering URLs from sitemap..."
           URLS=$(curl -s https://icanread.io/sitemap.xml | grep -o 'https://[^<]*' | sed 's/"//g')
           
-          for url in $URLS; do
-            echo "Submitting $url"
-            curl -X POST "https://www.bing.com/indexnow?url=$url&key=65cbd6f086194c549475b8650fa9dfc8"
-            sleep 1
-          done
+          # Create JSON payload
+          echo "Creating JSON payload..."
+          JSON_PAYLOAD=$(cat << EOF
+          {
+            "host": "icanread.io",
+            "key": "65cbd6f086194c549475b8650fa9dfc8",
+            "keyLocation": "https://icanread.io/65cbd6f086194c549475b8650fa9dfc8.txt",
+            "urlList": [$(echo "$URLS" | sed 's/^/"/;s/$/"/' | tr '\n' ',' | sed 's/,$//')]}
+          EOF
+          )
+          
+          echo "Submitting URLs to IndexNow..."
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$JSON_PAYLOAD"
