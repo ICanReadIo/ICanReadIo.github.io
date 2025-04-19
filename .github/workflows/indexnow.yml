@@ -14,15 +14,15 @@ jobs:
       - name: Submit URLs to IndexNow
         run: |
           echo "Gathering URLs from sitemap..."
-          URLS=$(curl -s https://icanread.io/sitemap.xml | grep -o 'https://[^<]*' | sed 's/"//g')
+          URLS=$(curl -s https://www.icanread.io/sitemap.xml | grep -o 'https://[^<]*' | sed 's/"//g')
           
           # Create JSON payload
           echo "Creating JSON payload..."
           JSON_PAYLOAD=$(cat << EOF
           {
-            "host": "icanread.io",
+            "host": "www.icanread.io",
             "key": "65cbd6f086194c549475b8650fa9dfc8",
-            "keyLocation": "https://icanread.io/65cbd6f086194c549475b8650fa9dfc8.txt",
+            "keyLocation": "https://www.icanread.io/65cbd6f086194c549475b8650fa9dfc8.txt",
             "urlList": [$(echo "$URLS" | sed 's/^/"/;s/$/"/' | tr '\n' ',' | sed 's/,$//')]}
           EOF
           )
