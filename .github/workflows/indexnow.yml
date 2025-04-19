@@ -28,6 +28,7 @@ jobs:
           )
           
           echo "Submitting URLs to IndexNow..."
-          curl -X POST "https://api.indexnow.org/indexnow" \
+          curl -X POST "http://api.indexnow.org/IndexNow" \
             -H "Content-Type: application/json; charset=utf-8" \
+            -H "Host: api.indexnow.org" \
             -d "$JSON_PAYLOAD"
