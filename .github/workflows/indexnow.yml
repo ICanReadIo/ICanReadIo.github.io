@@ -1,0 +1,23 @@
+name: IndexNow Submission
+
+on:
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Submit URLs to IndexNow
+        run: |
+          echo "Submitting URLs to IndexNow..."
+          URLS=$(curl -s https://icanread.io/sitemap.xml | grep -o 'https://[^<]*' | sed 's/"//g')
+          
+          for url in $URLS; do
+            echo "Submitting $url"
+            curl -X POST "https://www.bing.com/indexnow?url=$url&key=65cbd6f086194c549475b8650fa9dfc8"
+            sleep 1
+          done
