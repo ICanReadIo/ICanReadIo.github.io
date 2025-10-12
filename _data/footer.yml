@@ -10,6 +10,9 @@
     new_window: false    
   - name: Dyslexia FAQ
     link: /en/dyslexia-faq/
+    new_window: false
+  - name: Privacy Policy
+    link: /en/privacy.html
     new_window: false      
 - links:    
   - name: Articles

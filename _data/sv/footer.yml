@@ -5,6 +5,9 @@
   - name: Skapa konto
     link: https://app.icanread.io
     new_window: false
+  - name: Integritetspolicy
+    link: /sv/privacy.html
+    new_window: false
   - name: English
     link: /
     new_window: false

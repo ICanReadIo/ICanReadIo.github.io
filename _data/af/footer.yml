@@ -8,6 +8,9 @@
   - name: Artikels
     link: /af/blog
     new_window: false
+  - name: Privaatheidsbeleid
+    link: /af/privacy.html
+    new_window: false
   - name: English
     link: /en/
     new_window: false 
