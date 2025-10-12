@@ -205,10 +205,14 @@ Tawk_API.setAttributes({
 		}
 
 		// Fetch user location and initialize accordingly
-		fetch('https://ipapi.co/json/')
-			.then(function(response) { return response.json(); })
+		// Using ip-api.com (free, unlimited, no API key needed)
+		fetch('http://ip-api.com/json/')
+			.then(function(response) { 
+				if (!response.ok) throw new Error('Geolocation API failed');
+				return response.json(); 
+			})
 			.then(function(data) {
-				var countryCode = data.country_code;
+				var countryCode = data.countryCode || data.country_code;
 				
 				// EU countries + UK + EEA + California
 				var privacyRegions = [
@@ -275,10 +279,41 @@ Tawk_API.setAttributes({
 			})
 			.catch(function(error) {
 				// If geolocation fails, default to showing consent banner (safer)
-				console.log('Geolocation failed, showing consent banner as fallback');
+				console.log('Geolocation failed (' + error.message + '), showing consent banner as fallback');
+				
+				// Initialize Cookie Consent as fallback
 				window.cookieconsent.initialise(cookieConsentConfig, function(popup) {
+					// Helper function to enable scripts for a category
+					function enableScripts(category) {
+						var scripts = document.querySelectorAll('script[type="text/plain"][data-cookiecategory="' + category + '"]');
+						for (var i = 0; i < scripts.length; i++) {
+							var script = scripts[i];
+							var newScript = document.createElement('script');
+							
+							// Copy all attributes except type and data-cookiecategory
+							for (var j = 0; j < script.attributes.length; j++) {
+								var attr = script.attributes[j];
+								if (attr.name !== 'type' && attr.name !== 'data-cookiecategory') {
+									newScript.setAttribute(attr.name, attr.value);
+								}
+							}
+							
+							// Set the script content
+							if (script.src) {
+								newScript.src = script.src;
+							} else {
+								newScript.text = script.text;
+							}
+							
+							// Replace the old script with the new one
+							script.parentNode.replaceChild(newScript, script);
+						}
+					}
+					
 					if (popup.hasConsented()) {
-						enableAllTracking();
+						enableScripts('analytics');
+						enableScripts('marketing');
+						enableScripts('preferences');
 					}
 				});
 			});
