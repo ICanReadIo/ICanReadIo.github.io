@@ -127,6 +127,33 @@ Tawk_API.setAttributes({
 		// Determine language from Jekyll
 		var currentLang = "{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}";
 		
+		// Helper function to enable all scripts (for non-EU users)
+		function enableAllTracking() {
+			var scripts = document.querySelectorAll('script[type="text/plain"][data-cookiecategory]');
+			for (var i = 0; i < scripts.length; i++) {
+				var script = scripts[i];
+				var newScript = document.createElement('script');
+				
+				// Copy all attributes except type and data-cookiecategory
+				for (var j = 0; j < script.attributes.length; j++) {
+					var attr = script.attributes[j];
+					if (attr.name !== 'type' && attr.name !== 'data-cookiecategory') {
+						newScript.setAttribute(attr.name, attr.value);
+					}
+				}
+				
+				// Set the script content
+				if (script.src) {
+					newScript.src = script.src;
+				} else {
+					newScript.text = script.text;
+				}
+				
+				// Replace the old script with the new one
+				script.parentNode.replaceChild(newScript, script);
+			}
+		}
+		
 		// Cookie Consent configuration
 		var cookieConsentConfig = {
 			"palette": {
@@ -140,7 +167,8 @@ Tawk_API.setAttributes({
 				}
 			},
 			"type": "opt-in",
-			"content": {}
+			"content": {},
+			"location": true  // Enable geolocation detection
 		};
 
 		// Multi-language support
@@ -176,43 +204,84 @@ Tawk_API.setAttributes({
 			};
 		}
 
-		// Initialize Cookie Consent
-		window.cookieconsent.initialise(cookieConsentConfig, function(popup) {
-			// Helper function to enable scripts for a category
-			function enableScripts(category) {
-				var scripts = document.querySelectorAll('script[type="text/plain"][data-cookiecategory="' + category + '"]');
-				for (var i = 0; i < scripts.length; i++) {
-					var script = scripts[i];
-					var newScript = document.createElement('script');
-					
-					// Copy all attributes except type and data-cookiecategory
-					for (var j = 0; j < script.attributes.length; j++) {
-						var attr = script.attributes[j];
-						if (attr.name !== 'type' && attr.name !== 'data-cookiecategory') {
-							newScript.setAttribute(attr.name, attr.value);
-						}
-					}
-					
-					// Set the script content
-					if (script.src) {
-						newScript.src = script.src;
-					} else {
-						newScript.text = script.text;
-					}
-					
-					// Replace the old script with the new one
-					script.parentNode.replaceChild(newScript, script);
+		// Fetch user location and initialize accordingly
+		fetch('https://ipapi.co/json/')
+			.then(function(response) { return response.json(); })
+			.then(function(data) {
+				var countryCode = data.country_code;
+				
+				// EU countries + UK + EEA + California
+				var privacyRegions = [
+					'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR',
+					'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL',
+					'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB', // EU + UK
+					'IS', 'LI', 'NO' // EEA
+				];
+				
+				// Check if user is from California (US state detection needs additional logic)
+				var requiresConsent = privacyRegions.indexOf(countryCode) !== -1;
+				
+				// Special handling for US users - show banner for California residents
+				if (countryCode === 'US') {
+					requiresConsent = true; // Show banner for all US users (CCPA)
 				}
-			}
+				
+				if (requiresConsent) {
+					// User is in a privacy-regulated region - show consent banner
+					console.log('User is in privacy region (' + countryCode + ') - showing consent banner');
+					
+					// Initialize Cookie Consent
+					window.cookieconsent.initialise(cookieConsentConfig, function(popup) {
+						// Helper function to enable scripts for a category
+						function enableScripts(category) {
+							var scripts = document.querySelectorAll('script[type="text/plain"][data-cookiecategory="' + category + '"]');
+							for (var i = 0; i < scripts.length; i++) {
+								var script = scripts[i];
+								var newScript = document.createElement('script');
+								
+								// Copy all attributes except type and data-cookiecategory
+								for (var j = 0; j < script.attributes.length; j++) {
+									var attr = script.attributes[j];
+									if (attr.name !== 'type' && attr.name !== 'data-cookiecategory') {
+										newScript.setAttribute(attr.name, attr.value);
+									}
+								}
+								
+								// Set the script content
+								if (script.src) {
+									newScript.src = script.src;
+								} else {
+									newScript.text = script.text;
+								}
+								
+								// Replace the old script with the new one
+								script.parentNode.replaceChild(newScript, script);
+							}
+						}
 
-			// Enable scripts based on consent status
-			if (popup.hasConsented()) {
-				// User accepted cookies - enable all tracking
-				enableScripts('analytics');
-				enableScripts('marketing');
-				enableScripts('preferences');
-			}
-		});
+						// Enable scripts based on consent status
+						if (popup.hasConsented()) {
+							// User accepted cookies - enable all tracking
+							enableScripts('analytics');
+							enableScripts('marketing');
+							enableScripts('preferences');
+						}
+					});
+				} else {
+					// User is NOT in a privacy-regulated region - auto-enable tracking
+					console.log('User is outside privacy regions (' + countryCode + ') - enabling tracking automatically');
+					enableAllTracking();
+				}
+			})
+			.catch(function(error) {
+				// If geolocation fails, default to showing consent banner (safer)
+				console.log('Geolocation failed, showing consent banner as fallback');
+				window.cookieconsent.initialise(cookieConsentConfig, function(popup) {
+					if (popup.hasConsented()) {
+						enableAllTracking();
+					}
+				});
+			});
 	});
 	</script>
 </head>
