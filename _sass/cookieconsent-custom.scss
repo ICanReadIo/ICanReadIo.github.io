@@ -4,12 +4,18 @@
 // Override default cookie consent styles
 .cc-window {
 	font-family: 'Comfortaa', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
-	border-radius: 8px !important;
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+	border-radius: 12px !important;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+	max-width: 900px !important;
+	margin: 0 auto !important;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+	width: 90% !important;
 	
 	// Make it more visible on mobile
 	@media (max-width: 768px) {
-		max-width: 90% !important;
+		max-width: 95% !important;
+		width: 95% !important;
 		margin: 10px auto !important;
 	}
 }
@@ -26,13 +32,16 @@
 
 .cc-btn {
 	border-radius: 6px !important;
-	padding: 10px 24px !important;
+	padding: 12px 28px !important;
 	font-weight: 600 !important;
 	font-size: 14px !important;
 	transition: all 0.3s ease !important;
 	border: none !important;
 	cursor: pointer !important;
 	font-family: 'Comfortaa', sans-serif !important;
+	display: inline-block !important;
+	text-align: center !important;
+	min-width: 120px !important;
 	
 	&:hover {
 		transform: translateY(-2px) !important;
@@ -40,28 +49,35 @@
 	}
 	
 	@media (max-width: 768px) {
-		padding: 8px 16px !important;
+		padding: 10px 20px !important;
 		font-size: 13px !important;
-		margin: 4px !important;
+		min-width: 100px !important;
 	}
 }
 
 .cc-allow {
-	background-color: #ffffff !important;
-	color: #237afc !important;
+	background-color: #27ae60 !important;
+	color: #ffffff !important;
+	border: none !important;
 	
 	&:hover {
-		background-color: #f0f0f0 !important;
+		background-color: #2ecc71 !important;
+		transform: translateY(-2px) !important;
+		box-shadow: 0 6px 16px rgba(39, 174, 96, 0.3) !important;
 	}
 }
 
 .cc-deny {
-	background-color: transparent !important;
-	color: #ffffff !important;
-	border: 2px solid #ffffff !important;
+	background-color: #bdc3c7 !important;
+	color: #7f8c8d !important;
+	border: none !important;
+	opacity: 0.8 !important;
 	
 	&:hover {
-		background-color: rgba(255, 255, 255, 0.1) !important;
+		background-color: #95a5a6 !important;
+		opacity: 1 !important;
+		transform: translateY(-1px) !important;
+		box-shadow: 0 4px 12px rgba(149, 165, 166, 0.2) !important;
 	}
 }
 
@@ -80,47 +96,45 @@
 	.cc-compliance {
 		display: flex !important;
 		align-items: center !important;
-		gap: 10px !important;
+		justify-content: center !important;
+		gap: 15px !important;
 		flex-wrap: wrap !important;
+		margin-top: 15px !important;
 		
 		@media (max-width: 768px) {
 			justify-content: center !important;
+			gap: 10px !important;
 		}
 	}
 }
 
 // Banner positioning
 .cc-banner {
-	padding: 20px !important;
+	padding: 24px !important;
+	text-align: center !important;
 	
 	@media (max-width: 768px) {
-		padding: 15px !important;
+		padding: 20px !important;
 	}
 }
 
 // Floating/bottom positioning
 .cc-bottom {
-	bottom: 20px !important;
+	bottom: 30px !important;
 	left: 50% !important;
 	transform: translateX(-50%) !important;
-	max-width: 600px !important;
+	max-width: 900px !important;
 	width: 90% !important;
 	
 	@media (max-width: 768px) {
-		bottom: 10px !important;
+		bottom: 20px !important;
 		width: 95% !important;
 	}
 }
 
-// Revoke button (appears after user has made a choice)
+// Hide the revoke button that appears after consent
 .cc-revoke {
-	border-radius: 6px 6px 0 0 !important;
-	font-family: 'Comfortaa', sans-serif !important;
-	background-color: #237afc !important;
-	
-	&:hover {
-		background-color: #1a5fc4 !important;
-	}
+	display: none !important;
 }
 
 // Accessibility improvements

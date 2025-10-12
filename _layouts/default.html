@@ -29,14 +29,15 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<!-- Cookie Consent by Osano -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+	<!-- Cookie Consent by Osano (Self-hosted to avoid ad blocker issues) -->
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/cc-banner.min.css">
+	<script src="{{ site.baseurl }}/js/cc-banner.min.js"></script>
 	
 	{% if page.url == '/en/' %}
 		
 		{% endif %}
-	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+	{% comment %}Temporarily allow tracking in dev mode for testing{% endcomment %}
+	{% if site.google_analytics_key != '' or true %}
 		<script type="text/plain" data-cookiecategory="analytics" src="https://www.googleoptimize.com/optimize.js?id=OPT-5XZC76R"></script>
 
 		<!-- Google tag (gtag.js) -->
@@ -119,7 +120,7 @@ Tawk_API.setAttributes({
 </script>
 	
 	
-	{% endif %}
+	{% endif %}{% comment %}End tracking scripts{% endcomment %}
 
 	<!-- Cookie Consent Initialization -->
 	<script>
@@ -158,17 +159,18 @@ Tawk_API.setAttributes({
 		var cookieConsentConfig = {
 			"palette": {
 				"popup": {
-					"background": "#237afc",
+					"background": "#2c3e50",
 					"text": "#ffffff"
 				},
 				"button": {
-					"background": "#ffffff",
-					"text": "#237afc"
+					"background": "#3498db",
+					"text": "#ffffff"
 				}
 			},
 			"type": "opt-in",
 			"content": {},
-			"location": true  // Enable geolocation detection
+			"location": true,  // Enable geolocation detection
+			"revokable": false  // Disable the persistent revoke banner
 		};
 
 		// Multi-language support
@@ -318,6 +320,17 @@ Tawk_API.setAttributes({
 				});
 			});
 	});
+	
+	// Function to show cookie banner again (for privacy policy links)
+	window.showCookieBanner = function() {
+		if (window.cookieconsent) {
+			// Clear existing consent
+			document.cookie = "cookieconsent_status=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+			
+			// Reload page to show banner again
+			window.location.reload();
+		}
+	};
 	</script>
 </head>
 <body>
