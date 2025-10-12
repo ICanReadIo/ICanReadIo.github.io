@@ -206,14 +206,16 @@ Tawk_API.setAttributes({
 		}
 
 		// Fetch user location and initialize accordingly
-		// Using ip-api.com (free, unlimited, no API key needed)
-		fetch('http://ip-api.com/json/')
+		// Use ipapi.co for both HTTP and HTTPS (more reliable, works everywhere)
+		fetch('https://ipapi.co/json/')
 			.then(function(response) { 
 				if (!response.ok) throw new Error('Geolocation API failed');
 				return response.json(); 
 			})
 			.then(function(data) {
-				var countryCode = data.countryCode || data.country_code;
+				// Handle different API response formats
+				// ip-api.com uses "countryCode", ipapi.co uses "country_code"
+				var countryCode = data.countryCode || data.country_code || data.country;
 				
 				// EU countries + UK + EEA + California
 				var privacyRegions = [
