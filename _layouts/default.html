@@ -36,8 +36,7 @@
 	{% if page.url == '/en/' %}
 		
 		{% endif %}
-	{% comment %}Temporarily allow tracking in dev mode for testing{% endcomment %}
-	{% if site.google_analytics_key != '' or true %}
+	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 		<script type="text/plain" data-cookiecategory="analytics" src="https://www.googleoptimize.com/optimize.js?id=OPT-5XZC76R"></script>
 
 		<!-- Google tag (gtag.js) -->
@@ -120,7 +119,7 @@ Tawk_API.setAttributes({
 </script>
 	
 	
-	{% endif %}{% comment %}End tracking scripts{% endcomment %}
+	{% endif %}
 
 	<!-- Cookie Consent Initialization -->
 	<script>
