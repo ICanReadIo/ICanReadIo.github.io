@@ -37,13 +37,27 @@
 		
 		{% endif %}
 	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+		<!-- Google Consent Mode v2 - Set default to denied BEFORE any tags load -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		
+		// Set default consent to denied (before any tags load)
+		gtag('consent', 'default', {
+			'ad_storage': 'denied',
+			'ad_user_data': 'denied',
+			'ad_personalization': 'denied',
+			'analytics_storage': 'denied',
+			'wait_for_update': 500  // Wait 500ms for consent before firing tags
+		});
+		</script>
+		
 		<script type="text/plain" data-cookiecategory="analytics" src="https://www.googleoptimize.com/optimize.js?id=OPT-5XZC76R"></script>
 
 		<!-- Google tag (gtag.js) -->
 <script type="text/plain" data-cookiecategory="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-EBB68TDH78"></script>
 <script type="text/plain" data-cookiecategory="analytics">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  // gtag and dataLayer already defined above in consent mode script
   gtag('js', new Date());
 
   gtag('config', '{{ site.google_analytics_key }}');
@@ -267,19 +281,51 @@ Tawk_API.setAttributes({
 							}
 						}
 
-						// Enable scripts based on consent status
-						if (popup.hasConsented()) {
-							// User accepted cookies - enable all tracking
-							enableScripts('analytics');
-							enableScripts('marketing');
-							enableScripts('preferences');
+					// Enable scripts based on consent status
+					if (popup.hasConsented()) {
+						// User accepted cookies - enable all tracking
+						
+						// Update Google Consent Mode v2
+						if (typeof gtag === 'function') {
+							gtag('consent', 'update', {
+								'ad_storage': 'granted',
+								'ad_user_data': 'granted',
+								'ad_personalization': 'granted',
+								'analytics_storage': 'granted'
+							});
 						}
+						
+						enableScripts('analytics');
+						enableScripts('marketing');
+						enableScripts('preferences');
+					} else {
+						// User declined cookies - keep consent denied
+						if (typeof gtag === 'function') {
+							gtag('consent', 'update', {
+								'ad_storage': 'denied',
+								'ad_user_data': 'denied',
+								'ad_personalization': 'denied',
+								'analytics_storage': 'denied'
+							});
+						}
+					}
+				});
+			} else {
+				// User is NOT in a privacy-regulated region - auto-enable tracking
+				console.log('User is outside privacy regions (' + countryCode + ') - enabling tracking automatically');
+				
+				// Update Google Consent Mode v2 to granted (no consent needed)
+				if (typeof gtag === 'function') {
+					gtag('consent', 'update', {
+						'ad_storage': 'granted',
+						'ad_user_data': 'granted',
+						'ad_personalization': 'granted',
+						'analytics_storage': 'granted'
 					});
-				} else {
-					// User is NOT in a privacy-regulated region - auto-enable tracking
-					console.log('User is outside privacy regions (' + countryCode + ') - enabling tracking automatically');
-					enableAllTracking();
 				}
+				
+				enableAllTracking();
+			}
 			})
 			.catch(function(error) {
 				// If geolocation fails, default to showing consent banner (safer)
@@ -313,14 +359,36 @@ Tawk_API.setAttributes({
 							script.parentNode.replaceChild(newScript, script);
 						}
 					}
+				
+				if (popup.hasConsented()) {
+					// User accepted cookies - enable all tracking
 					
-					if (popup.hasConsented()) {
-						enableScripts('analytics');
-						enableScripts('marketing');
-						enableScripts('preferences');
+					// Update Google Consent Mode v2
+					if (typeof gtag === 'function') {
+						gtag('consent', 'update', {
+							'ad_storage': 'granted',
+							'ad_user_data': 'granted',
+							'ad_personalization': 'granted',
+							'analytics_storage': 'granted'
+						});
 					}
-				});
+					
+					enableScripts('analytics');
+					enableScripts('marketing');
+					enableScripts('preferences');
+				} else {
+					// User declined cookies - keep consent denied
+					if (typeof gtag === 'function') {
+						gtag('consent', 'update', {
+							'ad_storage': 'denied',
+							'ad_user_data': 'denied',
+							'ad_personalization': 'denied',
+							'analytics_storage': 'denied'
+						});
+					}
+				}
 			});
+		});
 	});
 	
 	// Function to show cookie banner again (for privacy policy links)
